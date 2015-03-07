@@ -4,50 +4,22 @@
 <title>Menu.</title>
 <meta charset="utf-8" />
 <meta name="author" content="Stas Melnikov" />
-<style>
-	*{
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-	
-	body{
-		font-famile: arial;
-		font-size: 14px;
-	}
-	
-	.container{
-		width: 1200px;
-		margin: 0 auto;
-		padding-top: 35px;
-	}
-	
-	.title{
-		font-family: verdana;
-		font-size: 25px;
-		margin-bottom: 25px;
-		font-weight: normal;
-	}
-	
-	a{
-		text-decoration: none;
-		color: #3bc79a;
-		display: block;
-		transition: color .4s ease-in
-	}
-	
-	a:hover{
-		color: #239470;
-	}
-	
-	.list{
-		line-height: 25px;
-	}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="demo/style.css" />
 </head>
 <body>
-	<div class="container">
-		<h1 class="title">Menu</h1>
+	<header class="header wrapper">
+		<div class="main_container">
+			<h1 class="title">Library-of-plugins is a collection of ready-made decisions for front-end development.</h1>
+			<p class="paragraph">
+				They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
+			</p>
+		<a href="http://codecanyon.net/item/responsive-framework/8818382" class="link link_button">About Author</a>
+		<a href="https://github.com/melnik909/library-of-plugins"  class="link link_button">Repositories on GitHub</a>
+		</div>
+	</header>
+	<div class="main_container">
+		<h2 class="title">Menu</h2>
 		<ul class="list">
 			<li><a href="http://www.sitepoint.com/pure-css-off-screen-navigation-menu/">Pure CSS Off-screen Navigation Menu</a></li>
 			<li><a href="http://codepen.io/soulwire/pen/EKmwC">CSS 3D DROPDOWN CONCEPT</a></li>
@@ -56,6 +28,38 @@
 			<li><a href="http://www.onextrapixel.com/2014/05/22/create-a-fully-animated-full-page-menu-with-jquery-fullpage-menu-js/">Create a Fully Animated Full Page Menu with jQuery.Fullpage-Menu.js</a></li>
 			<li><a href="http://www.alessandroferrini.it/lab/jQueryPlugins/ferroMenu/demos/demo1.html">Ferro Menu</a></li>
 		</ul>
+		<div class="main_container_item">
+			<a href="index.html" class="icon icon-home"></a>
+			<h3 class="title_middle">Home</h3>
+		</div>
+		<div class="main_container_item">
+			<a href="form.html" class="icon icon-edit"></a>
+			<h3 class="title_middle">Form</h3>
+		</div>
+		<div class="main_container_item">
+			<a href="preloaders.html" class="icon icon-spinner"></a>
+			<h3 class="title_middle">Preloaders</h3>
+		</div>
+		<div class="main_container_item">
+			<a href="menu.html" class="icon icon-menu"></a>
+			<h3 class="title_middle">Menu</h3>
+		</div>
 	</div>
+	<footer class="footer">
+		<div class="left_column">
+			<h3 class="title_middle">Social:</h3>
+			<div class="yashare-auto-init"  data-yashareL10n="en" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,gplus" data-yashareTheme="counter"></div>
+		</div>
+		<div class="right_column">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="DZZD26SEBM75S">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
+			</form>
+			<div class="copyright"><a class="link" target="blank" href="https://www.linkedin.com/in/melnik909">Developed by Stas Melnikov</a></div>
+		</div>
+	</footer>
+<script async type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 </body>
 </html>
