@@ -33,7 +33,7 @@
 			<li><a href="http://www.unheap.com/navigation/vertical-drop-down/smooth-animated-menu/">Smooth Animated Menu</a></li>
 		</ul>
 		<div class="main_container_item">
-			<a href="index.html" class="icon icon-home"></a>
+			<a href="http://stas-melnikov.ru/library-of-plugins/" class="icon icon-home"></a>
 			<h3 class="title_middle">Home</h3>
 		</div>
 <div class="main_container_item">
@@ -112,6 +112,38 @@
 			<div class="copyright"><a class="link" target="blank" href="https://www.linkedin.com/in/melnik909">Developed by Stas Melnikov</a></div>
 		</div>
 	</footer>
-<script async type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
+<script>
+(function(){
+
+	var scripts = [
+		{
+			src: "//yastatic.net/share/share.js",
+			async: true,
+		}
+	],
+	
+	scripts_len = scripts.length;
+
+	
+	window.addEventListener('load', init(scripts));
+
+	
+	function init(scripts){
+		var script;
+		setTimeout(function(){
+			if(window.outerWidth > 640){
+
+				for(var i = 0; i < scripts_len; i++){
+					script = document.createElement("script");
+					script.src = scripts[i].src;
+					script.async = scripts[i].async;
+					document.body.appendChild(script);
+				}
+				
+			}
+		},100);
+	}
+})();
+</script> 
 </body>
 </html>
