@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Library-of-plugins is a collection of ready-made decisions for front-end development.</title>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="Stas Melnikov" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+<style>
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?v6hiiq');
+	src:url('fonts/icomoon.eot?#iefixv6hiiq') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?v6hiiq') format('truetype'),
+		url('fonts/icomoon.woff?v6hiiq') format('woff'),
+		url('fonts/icomoon.svg?v6hiiq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link:before {
+	content: "\e9cb";
+}
+.icon-github4:before {
+	content: "\eab4";
+}
+
+.demo_content{
+	text-align: left
+}
+
+.donate{
+	float: right;
+}
+
+.demo_container_item{
+	text-align: left;
+}
+
+.demo_container_columns3 .demo_container_item {
+	margin: 0 0px 20px;
+}
+
+.demo_plugins_title{
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 15px;	
+}
+
+.demo_title_middle {
+	font-family: verdana;
+	font-weight: 400;
+  	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.demo_description{
+	font-size: 16px;
+	line-height: 26px;
+	margin: 35px 0 55px;
+}
+
+.demo_plugin_description{
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 15px;
+}
+
+.demo_link_show{
+	font-size: 14px;
+}
+
+.demo_link_show:before{
+	font-size: 16px;
+	margin-right: 8px;
+	color: #000;
+}
+
+@media screen and (max-width: 640px){ 
+	
+	.demo_content{
+		text-align: center
+	}
+}
+</style>
+
+</head>
+<body>
+	<div class="demo_wrapper">
+		<header class="demo_container">
+			<h1 class="demo_logo"><span class="demo_logo_item">Library</span> of plugins</h1>
+			<form class="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" >
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="DZZD26SEBM75S">
+				<button style="padding: 8px 15px;font-size: 16px; color: #36bae2;;cursor: pointer;background-color: rgba(0,0,0,0)">Donate</button>
+			</form>
+		</header>
+	</div>
+	<section class="demo_container">
+		<p class="demo_description">
+			They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
+		</p>
+		<h2 class="demo_title demo_plugins_title">Graphics</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Lazy Line Painter</h3>
+				<p class="demo_plugin_description">A jQuery plugin for path animation using the CSS.</p>
+				<p><a href="http://lazylinepainter.info/" target="blank" class="demo_link demo_link_show icon-link">http://lazylinepainter.info/</a></p>
+				<p><a href="https://github.com/camoconnell/lazy-line-painter" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/camoconnell/lazy-line-painter</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">SVG Morpheus</h3>
+				<p class="demo_plugin_description">JavaScript library enabling SVG icons to morph from one to the other. It implements Material Design's Delightful Details transitions.</p>
+				<p><a href="http://alexk111.github.io/SVG-Morpheus/" target="blank" class="demo_link demo_link_show icon-link">http://alexk111.github.io/SVG-Morpheus/</a></p>
+				<p><a href="https://github.com/alexk111/SVG-Morpheus" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/alexk111/SVG-Morpheus</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Arbor.js</h3>
+				<p class="demo_plugin_description">Arbor is a graph visualization library built with web workers and jQuery. Rather than trying to be an all-encompassing framework, arbor provides an efficient, force-directed layout algorithm plus abstractions for graph organization and screen refresh handling.</p>
+				<p><a href="http://arborjs.org/" target="blank" class="demo_link demo_link_show icon-link">http://arborjs.org/</a></p>
+				<p><a href="https://github.com/samizdatco/arbor" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/samizdatco/arbor</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Chartist.js</h3>
+				<p class="demo_plugin_description">Chartist's goal is to provide a simple, lightweight and unintrusive library to responsively craft charts on your website. It's important to understand that one of the main intentions of Chartist.js is to rely on standards rather than providing it's own solution to a problem which is already solved by those standards.</p>
+				<p><a href="http://gionkunz.github.io/chartist-js/" target="blank" class="demo_link demo_link_show icon-link">http://gionkunz.github.io/chartist-js/</a></p>
+				<p><a href="https://github.com/gionkunz/chartist-js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/gionkunz/chartist-js</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">JointJS</h3>
+				<p class="demo_plugin_description">JointJS is a JavaScript diagramming library. It can be used to create either static diagrams or, and more importantly, fully interactive diagramming tools and application builders.</p>
+				<p><a href="http://jointjs.com/" target="blank" class="demo_link demo_link_show icon-link">http://jointjs.com/</a></p>
+				<p><a href="https://github.com/clientIO/joint" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/clientIO/joint</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Epoch</h3>
+				<p class="demo_plugin_description">Epoch is a general purpose charting library for application developers and visualization designers. It focuses on two different aspects of visualization programming: basic charts for creating historical reports, and real-time charts for displaying frequently updating timeseries data.</p>
+				<p><a href="http://fastly.github.io/epoch/" target="blank" class="demo_link demo_link_show icon-link">http://fastly.github.io/epoch/</a></p>
+				<p><a href="https://github.com/fastly/epoch" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/fastly/epoch</a></p>
+			</div>	
+		</div>
+	</section>
+	
+	<section class="demo_container demo_content">
+		<h2 class="demo_title">My plugins:</h2>
+		<div class="demo_stas_projects">
+			<a href="http://stas-melnikov.ru/layered_responsive_modal_window/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Responsive modal window</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/preloaders/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_css">
+				<h3 class="demo_stas_project_item">Preloaders</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/webgl_generator_3dmodels/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">WebGL Generator of Models</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/themes/responsive_ux_template/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_html">
+				<h3 class="demo_stas_project_item">Responsive UX template</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/3d_panorama/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">3d Panorams</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/material_table/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_css">
+				<h3 class="demo_stas_project_item">Material responsive table</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/responsive_elements/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Responsive Framework</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/material_bootstrap_theme/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_css">
+				<h3 class="demo_stas_project_item">Material design for Bootstrap 3</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/library-of-plugins/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Library of plugins</h3>
+			</a>
+			<a href="http://stas-melnikov.ru/magic_layout/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Magic Layout</h3>
+			</a>
+		</div>
+	</section>
+	<footer class="demo_footer">
+		<div class="demo_container">
+			<div class="social demo_footer_left_column">
+				<div class="yashare-auto-init" data-yashareL10n="en" data-yashareType="small" data-yashareQuickServices="twitter,gplus,facebook" data-yashareTheme="counter"></div>
+			</div>
+			<div class=" demo_footer_right_column">
+				<a target="blank" class="stas" href="https://www.linkedin.com/in/melnik909">Developed by Stas Melnikov</a>
+			</div>
+		</div>
+	</footer>
+<script>
+(function(){
+
+	var scripts = [
+
+		{
+			src : "//yastatic.net/share/share.js",
+			async: true,
+		}
+	],
+	scripts_len = scripts.length;
+	
+	window.addEventListener('load', loadScripts(scripts));
+	function loadScripts(scripts){
+		var script;
+		setTimeout(function(){
+			if(window.outerWidth > 640){
+				for(var i = 0; i < scripts_len; i++){
+					script = document.createElement("script");
+					script.src = scripts[i].src;
+					script.async = scripts[i].async;
+					document.body.appendChild(script);
+				}
+				
+			}
+		},1000);
+	}
+})();
+</script>
+</body>
+</html>
