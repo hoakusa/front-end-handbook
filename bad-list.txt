@@ -1,6 +1,0 @@
-Pure CSS Off-screen Navigation Menu
-Create a Fully Animated Full Page Menu with jQuery.Fullpage-Menu.js
-Ferro Menu
-jQuery ReSmenu
-Smooth Animated Menu
-Pizza Amore

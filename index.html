@@ -3,159 +3,657 @@
 <head>
 <title>Library-of-plugins is a collection of ready-made decisions for front-end development.</title>
 <meta charset="utf-8" />
+<meta name="description" content="Library-of-plugins is a collection of ready-made decisions for front-end development." />
+<meta name="keywords" content="jquery plugins, bootstrap plugins, slider jquery, slider js, file api plugins, loaders css, best plugins, free plugins" />
 <meta name="author" content="Stas Melnikov" />
-<link rel="stylesheet" type="text/css" href="demo/style.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<!--plugins css-->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 <style>
-.js {background-color: #40c95d;}.css {background-color: #36bae2;}.html{background-color: #d7d93f;}.project_item {color: #fff;font-size: 18px;position: absolute;top: 50%;left: 50%;-webkit-transform: translateZ(0) translate(-50%, -50%);-ms-transform: translateZ(0) translate(-50%, -50%);transform: translateZ(0) translate(-50%, -50%);}
-.main_container_plugins {margin: 0 auto;padding: 35px 20px 0;text-align: center;min-width: 100px;max-width: 1200px;}.main_container_plugins  .main_container_item {width: 100px;padding: 1%;height: 250px;position: relative;display: inline-block;line-height: 25px;vertical-align: top;}.main_container_plugins.columns3 .main_container_item {width: 30%;margin: 0 5px 20px;}.main_container_plugins  .img_post {height: auto; max-width: 100%; border: 9px solid #eee;}@media screen and (max-width: 640px){.main_container_plugins.columns3 .main_container_item { width: 90%;}}
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?v6hiiq');
+	src:url('fonts/icomoon.eot?#iefixv6hiiq') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?v6hiiq') format('truetype'),
+		url('fonts/icomoon.woff?v6hiiq') format('woff'),
+		url('fonts/icomoon.svg?v6hiiq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link:before {
+	content: "\e9cb";
+}
+.icon-github4:before {
+	content: "\eab4";
+}
+
+.demo_content{
+	text-align: left
+}
+
+.donate{
+	float: right;
+}
+
+.demo_container_item{
+	text-align: left;
+	overflow: hidden
+}
+
+.demo_container_columns3 .demo_container_item {
+	margin: 0 0px 20px;
+}
+
+.demo_plugins_title{
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 15px;	
+}
+
+.demo_title_middle {
+	font-family: verdana;
+	font-weight: 400;
+  	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.demo_description{
+	font-size: 16px;
+	line-height: 26px;
+	margin: 35px 0 55px;
+}
+
+.demo_plugin_description{
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 15px;
+}
+
+.demo_link_show{
+	font-size: 14px;
+}
+
+.demo_link_show:before{
+	font-size: 16px;
+	margin-right: 8px;
+	color: #000;
+}
+
+@media screen and (max-width: 640px){ 
+	
+	.donate{
+		 float: none;
+		margin-top: 10px;
+		text-align: center;
+	}
+	
+	.demo_content{
+		text-align: center
+	}
+}
 </style>
+
 </head>
 <body>
-	<header class="header wrapper">
-		<div class="main_container">
-			<h1 class="title">Library-of-plugins is a collection of ready-made decisions for front-end development.</h1>
-			<p class="paragraph">
-				They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
-			</p>
-		<a href="https://www.linkedin.com/in/melnik909" class="link link_button">About Author</a>
-		<a href="https://github.com/melnik909/library-of-plugins"  class="link link_button">Repositories on GitHub</a>
-		</div>
-	</header>
-	<div class="main_container">
-		<h2 class="title centerd_title">Categories:</h2>
-		<div class="main_container_item">
-			<a href="animation.html" class="icon icon-css3"></a>
-			<h3 class="title_middle">Animation</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="form.html" class="icon icon-edit"></a>
-			<h3 class="title_middle">Form</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="graphics.html" class="icon icon-chart-area"></a>
-			<h3 class="title_middle">Graphics</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="layout.html" class="icon icon-th"></a>
-			<h3 class="title_middle">Layout</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="lazyload.html" class="icon icon-html5"></a>
-			<h3 class="title_middle">Lazyload</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="menu.html" class="icon icon-menu"></a>
-			<h3 class="title_middle">Menu</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="popups.html" class="icon icon-resize-full"></a>
-			<h3 class="title_middle">Popups</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="preloaders.html" class="icon icon-spinner"></a>
-			<h3 class="title_middle">Preloaders</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="scroll.html" class="icon icon-resize-vertical"></a>
-			<h3 class="title_middle">Scroll</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="sliders.html" class="icon icon-picture"></a>
-			<h3 class="title_middle">Sliders</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="upload.html" class="icon icon-folder-open-empty"></a>
-			<h3 class="title_middle">Upload file</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="datetime.html" class="icon icon-calendar"></a>
-			<h3 class="title_middle">Date and time</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="dragdrop.html" class="icon icon-move"></a>
-			<h3 class="title_middle">drag&drop</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="editors.html" class="icon icon-html5"></a>
-			<h3 class="title_middle">Editors</h3>
-		</div>
-		<div class="main_container_item">
-			<a href="others.html" class="icon icon-html5"></a>
-			<h3 class="title_middle">Others</h3>
-		</div>
+	<div class="demo_wrapper">
+		<header class="demo_container">
+			<h1 class="demo_logo"><span class="demo_logo_item">Library</span> of plugins</h1>
+			<nav class="demo_menu">	
+				<a href="https://github.com/melnik909/library-of-plugins" class="demo_menu_link">GitHub</a>
+			</nav>
+			<form class="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" >
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="DZZD26SEBM75S">
+				<button style="padding: 8px 15px;font-size: 16px; color: #36bae2;;cursor: pointer;background-color: rgba(0,0,0,0)">Donate</button>
+			</form>
+		</header>
 	</div>
-	<section class="main_container_plugins columns3">
-		<h2 class="title">My plugins:</h2>
-		<div id="all_production">
-			<a href="http://stas-melnikov.ru/layered_responsive_modal_window/" target="blank" class="main_container_item project js">
-				<h3 class="project_item">Responsive modal window</h3>
+	<section class="demo_container">
+		<p class="demo_description">
+			They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
+		</p>
+		<h2 class="demo_title demo_plugins_title">Animation</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Snabbt.js</h3>
+				<p class="demo_plugin_description">Fast animations with Javascript and CSS transforms(Work in progress)</p>
+				<p><a href="http://daniel-lundin.github.io/snabbt.js/" target="blank" class="demo_link demo_link_show icon-link">http://daniel-lundin.github.io/snabbt.js/</a></p>
+				<p><a href="https://github.com/daniel-lundin/snabbt.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/daniel-lundin/snabbt.js</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">AniJS</h3>
+				<p class="demo_plugin_description">A Library to Raise your Web Design without Coding. The most easy and quick way to Raise your web!!!</p>
+				<p><a href="http://anijs.github.io/" target="blank" class="demo_link demo_link_show icon-link">http://anijs.github.io/</a></p>
+				<p><a href="https://github.com/anijs/anijs" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/anijs/anijs</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Hover.css</h3>
+				<p class="demo_plugin_description">A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.</p>
+				<p><a href="http://ianlunn.github.io/Hover/" target="blank" class="demo_link demo_link_show icon-link">http://ianlunn.github.io/Hover/</a></p>
+				<p><a href="https://github.com/IanLunn/Hover" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/IanLunn/Hover</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">jQueryTween</h3>
+				<p class="demo_plugin_description">This plugin is a bridge to tween.js and aims to drastically simplify your work. Each script does what it does best, for high performance hardware accelerated animations.</p>
+				<p><a href="http://thednp.github.io/jQueryTween/" target="blank" class="demo_link demo_link_show icon-link">http://thednp.github.io/jQueryTween/</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">cta.js</h3>
+				<p class="demo_plugin_description">cta.js or "Call to Animation" is a light-weight performant library to animate any element ("action") onto any other element ("effect") on the page.</p>
+				<p><a href="http://kushagragour.in/lab/ctajs/" target="blank" class="demo_link demo_link_show icon-link">http://kushagragour.in/lab/ctajs/</a></p>
+				<p><a href="https://github.com/chinchang/cta.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/chinchang/cta.js</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Form</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Animated delete icon</h3>
+				<p><a href="http://codepen.io/yesilfasulye/pen/LmIlw" target="blank" class="demo_link demo_link_show icon-link">http://codepen.io/yesilfasulye/pen/LmIlw</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">COLLECTION CSS3 BUTTONS</h3>
+				<p><a href="http://codepen.io/Angelfire/pen/opdDt" target="blank" class="demo_link demo_link_show icon-link">http://codepen.io/Angelfire/pen/opdDt</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Circular Progress Button</h3>
+				<p class="demo_plugin_description">Implementation of Colin Garvin's submit button concept</p>
+				<p><a href="http://tympanus.net/codrops/2014/04/09/how-to-create-a-circular-progress-button/" target="blank" class="demo_link demo_link_show icon-link">http://tympanus.net/codrops/2014/04/09/how-to-create-a-circular-progress-button/</a></p>
+				<p><a href="https://github.com/codrops/CircularProgressButton/" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/codrops/CircularProgressButton/</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Progress Button Styles</h3>
+				<p class="demo_plugin_description">A set of flat and 3D progress button styles where the button itself serves as a progress indicator. 3D styles are used for showing the progress indication on one side of the button while rotating the button in perspective.</p>
+				<p><a href="http://tympanus.net/codrops/2013/12/12/progress-button-styles/" target="blank" class="demo_link demo_link_show icon-link">http://tympanus.net/codrops/2013/12/12/progress-button-styles/</a></p>
+				<p><a href="https://github.com/codrops/ProgressButtonStyles" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/codrops/ProgressButtonStyles</a></p>
+			</div>	
+		</div>
+		<h2 class="demo_title demo_plugins_title">Graphics</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Lazy Line Painter</h3>
+				<p class="demo_plugin_description">A jQuery plugin for path animation using the CSS.</p>
+				<p><a href="http://lazylinepainter.info/" target="blank" class="demo_link demo_link_show icon-link">http://lazylinepainter.info/</a></p>
+				<p><a href="https://github.com/camoconnell/lazy-line-painter" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/camoconnell/lazy-line-painter</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">SVG Morpheus</h3>
+				<p class="demo_plugin_description">JavaScript library enabling SVG icons to morph from one to the other. It implements Material Design's Delightful Details transitions.</p>
+				<p><a href="http://alexk111.github.io/SVG-Morpheus/" target="blank" class="demo_link demo_link_show icon-link">http://alexk111.github.io/SVG-Morpheus/</a></p>
+				<p><a href="https://github.com/alexk111/SVG-Morpheus" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/alexk111/SVG-Morpheus</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Arbor.js</h3>
+				<p class="demo_plugin_description">Arbor is a graph visualization library built with web workers and jQuery. Rather than trying to be an all-encompassing framework, arbor provides an efficient, force-directed layout algorithm plus abstractions for graph organization and screen refresh handling.</p>
+				<p><a href="http://arborjs.org/" target="blank" class="demo_link demo_link_show icon-link">http://arborjs.org/</a></p>
+				<p><a href="https://github.com/samizdatco/arbor" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/samizdatco/arbor</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Chartist.js</h3>
+				<p class="demo_plugin_description">Chartist's goal is to provide a simple, lightweight and unintrusive library to responsively craft charts on your website. It's important to understand that one of the main intentions of Chartist.js is to rely on standards rather than providing it's own solution to a problem which is already solved by those standards.</p>
+				<p><a href="http://gionkunz.github.io/chartist-js/" target="blank" class="demo_link demo_link_show icon-link">http://gionkunz.github.io/chartist-js/</a></p>
+				<p><a href="https://github.com/gionkunz/chartist-js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/gionkunz/chartist-js</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">JointJS</h3>
+				<p class="demo_plugin_description">JointJS is a JavaScript diagramming library. It can be used to create either static diagrams or, and more importantly, fully interactive diagramming tools and application builders.</p>
+				<p><a href="http://jointjs.com/" target="blank" class="demo_link demo_link_show icon-link">http://jointjs.com/</a></p>
+				<p><a href="https://github.com/clientIO/joint" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/clientIO/joint</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Epoch</h3>
+				<p class="demo_plugin_description">Epoch is a general purpose charting library for application developers and visualization designers. It focuses on two different aspects of visualization programming: basic charts for creating historical reports, and real-time charts for displaying frequently updating timeseries data.</p>
+				<p><a href="http://fastly.github.io/epoch/" target="blank" class="demo_link demo_link_show icon-link">http://fastly.github.io/epoch/</a></p>
+				<p><a href="https://github.com/fastly/epoch" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/fastly/epoch</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">dc.js</h3>
+				<p class="demo_plugin_description">Dimensional charting built to work natively with crossfilter rendered using d3.js. Check out the example page with a quick five minutes how to guide. For a detailed API reference and more please visit the Wiki.</p>
+				<p><a href="https://github.com/dc-js/dc.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/dc-js/dc.js</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">vis.js</h3>
+				<p class="demo_plugin_description">Vis.js is a dynamic, browser based visualization library. The library is designed to be easy to use, handle large amounts of dynamic data, and enable manipulation of the data. </p>
+				<p><a href="https://github.com/almende/vis" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/almende/vis</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">sigma.js</h3>
+				<p class="demo_plugin_description">Sigma is a JavaScript library dedicated to graph drawing.</p>
+				<p><a href="http://sigmajs.org/" target="blank" class="demo_link demo_link_show icon-link">http://sigmajs.org/</a></p>
+				<p><a href="https://github.com/jacomyal/sigma.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/jacomyal/sigma.js</a></p>
+			</div>	
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Highcharts JS</h3>
+				<p class="demo_plugin_description">Highcharts JS is a JavaScript charting library based on SVG and VML rendering.</p>
+				<p><a href="http://www.highcharts.com/" target="blank" class="demo_link demo_link_show icon-link">http://www.highcharts.com/</a></p>
+				<p><a href="https://github.com/highslide-software/highcharts.com" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/highslide-software/highcharts.com</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">jsPlumb</h3>
+				<p class="demo_plugin_description">jsPlumb provides a means for a developer to visually connect elements on their web pages. It uses SVG or Canvas in modern browsers, and VML on IE 8 and below. </p>
+				<p><a href="https://jsplumbtoolkit.com/demo/flowchart/dom.html" target="blank" class="demo_link demo_link_show icon-link">https://jsplumbtoolkit.com/demo/flowchart/dom.html</a></p>
+				<p><a href="https://github.com/sporritt/jsplumb/" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/sporritt/jsplumb/</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Layout</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Stapel</h3>
+				<p class="demo_plugin_description">An experimental jQuery plugin that will group thumbnails by a shared data-attribute into a pile. When clicking on the pile, the thumbnails that belong to that pile will be spread into a grid using CSS transitions.</p>
+				<p><a href="http://tympanus.net/codrops/2012/11/21/adaptive-thumbnail-pile-effect-with-automatic-grouping/" target="blank" class="demo_link demo_link_show icon-link">http://tympanus.net/codrops/2012/11/21/adaptive-thumbnail-pile-effect-with-automatic-grouping/</a></p>
+				<p><a href="https://github.com/codrops/Stapel" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/codrops/Stapel</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">jsGrid Lightweight Grid jQuery Plugin</h3>
+				<p class="demo_plugin_description">jsGrid is a lightweight client-side data grid control based on jQuery. It supports basic grid operations like inserting, filtering, editing, deleting, paging and sorting. Although jsGrid is tunable and allows to customize appearance and components.</p>
+				<p><a href="https://github.com/tabalinas/jsgrid" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/tabalinas/jsgrid</a></p>
+				<p><a href="http://js-grid.com/" target="blank" class="demo_link demo_link_show icon-link">http://js-grid.com/</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">jQuery Bootgrid</h3>
+				<p class="demo_plugin_description">Nice, sleek and intuitive. A grid control especially designed for bootstrap.</p>
+				<p><a href="https://github.com/rstaib/jquery-bootgrid" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/rstaib/jquery-bootgrid</a></p>
+				<p><a href="http://www.jquery-bootgrid.com/" target="blank" class="demo_link demo_link_show icon-link">http://www.jquery-bootgrid.com/</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">jQuery ListNav Plugin</h3>
+				<p class="demo_plugin_description">Create a world of alphabetical navigation filters one list at a time!</p>
+				<p><a href="http://ericsteinborn.com/jquery-listnav/" target="blank" class="demo_link demo_link_show icon-link">http://ericsteinborn.com/jquery-listnav/</a></p>
+				<p><a href="https://github.com/esteinborn/jquery-listnav" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/esteinborn/jquery-listnav</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Lazyload</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">BttrLazyLoading.js</h3>
+				<p class="demo_plugin_description">BttrLazyLoading is a Jquery plugin that allows your web application to defer image loading until images are scrolled to but not only! </p>
+				<p><a href="http://bttrlazyloading.julienrenaux.fr/" target="blank" class="demo_link demo_link_show icon-link">http://bttrlazyloading.julienrenaux.fr/</a></p>
+				<p><a href="https://github.com/shprink/BttrLazyLoading" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/shprink/BttrLazyLoading</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Echo.js</h3>
+				<p class="demo_plugin_description">Echo is a standalone JavaScript lazy-loading image micro-library. Echo is fast, 2KB, and uses HTML5 data-* attributes for simple. Check out a demo. Echo works in IE8+.</p>
+				<p><a href="https://github.com/toddmotto/echo" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/toddmotto/echo</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Lazy Load XT jQuery plugin</h3>
+				<p class="demo_plugin_description">Mobile-oriented, fast and extensible jQuery plugin for lazy loading of images/videos with build-in support of jQueryMobile framework.</p>
+				<p><a href="https://github.com/ressio/lazy-load-xt" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/ressio/lazy-load-xt</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">lazysizes</h3>
+				<p class="demo_plugin_description">lazysizes is a fast (jank-free) and self-initializing lazyloader for images (including responsive images picture/srcset), iframes, scripts/widgets and much more.</p>
+				<p><a href="https://github.com/aFarkas/lazysizes" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/aFarkas/lazysizes</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Menu</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Ascensor.js </h3>
+				<p class="demo_plugin_description">Ascensor is a jquery plugin which aims to train and adapt content according to an elevator system </p>
+				<p><a href="http://kirkas.ch/ascensor/#Home" target="blank" class="demo_link demo_link_show icon-link">http://kirkas.ch/ascensor/#Home</a></p>
+				<p><a href="https://github.com/kirkas/Ascensor.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/kirkas/Ascensor.js</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">ScrollIt.js </h3>
+				<p class="demo_plugin_description">Ascensor is a jquery plugin which aims to train and adapt content according to an elevator system </p>
+				<p><a href="http://www.bytemuse.com/scrollIt.js/" target="blank" class="demo_link demo_link_show icon-link">http://www.bytemuse.com/scrollIt.js/</a></p>
+				<p><a href="https://github.com/cmpolis/scrollIt.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/cmpolis/scrollIt.js</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Lightboxs</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Custombox.js </h3>
+				<p class="demo_plugin_description">Modal Window Effects with transitions CSS3. See the project page for documentation and a demonstration.</p>
+				<p><a href="http://dixso.github.io/custombox/" target="blank" class="demo_link demo_link_show icon-link">http://dixso.github.io/custombox/</a></p>
+				<p><a href="https://github.com/dixso/custombox" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/dixso/custombox</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Preloaders</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Single Element CSS Spinners </h3>
+				<p class="demo_plugin_description">This is a collection of loading spinners animated with CSS. Each spinner consists of a single div with a class of loader and content text of "Loading...". The text is for screen readers and can be used as a fallback state for older browsers.</p>
+				<p><a href="http://projects.lukehaas.me/css-loaders/" target="blank" class="demo_link demo_link_show icon-link">http://projects.lukehaas.me/css-loaders/</a></p>
+				<p><a href="https://github.com/lukehaas/css-loaders" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/lukehaas/css-loaders</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Loaders</h3>
+				<p><a href="http://codepen.io/matthewpalmer/pen/nFmtg" target="blank" class="demo_link demo_link_show icon-link">http://codepen.io/matthewpalmer/pen/nFmtg</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Loaders.css</h3>
+				<p class="demo_plugin_description">Delightful and performance-focused pure css loading animations.</p>
+				<p><a href="http://connoratherton.com/loaders" target="blank" class="demo_link demo_link_show icon-link">http://connoratherton.com/loaders</a></p>
+				<p><a href="https://github.com/ConnorAtherton/loaders.css" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/ConnorAtherton/loaders.css</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Scroll</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">ScrollMagic</h3>
+				<p class="demo_plugin_description">The javascript library for magical scroll interactions</p>
+				<p><a href="http://janpaepke.github.io/ScrollMagic/" target="blank" class="demo_link demo_link_show icon-link">http://janpaepke.github.io/ScrollMagic/</a></p>
+				<p><a href="https://github.com/janpaepke/ScrollMagic" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/janpaepke/ScrollMagic</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Tilted Page Scroll</h3>
+				<p class="demo_plugin_description">Create a beautilful 3D tilted scrolling effect for your website with jQuery Tilted Page Scroll. </p>
+				<p><a href="http://www.thepetedesign.com/demos/tiltedpage_scroll_demo.html" target="blank" class="demo_link demo_link_show icon-link">http://www.thepetedesign.com/demos/tiltedpage_scroll_demo.html</a></p>
+				<p><a href="https://github.com/peachananr/tiltedpage_scroll" target="blank" class="demo_link demo_link_show icon-link">https://github.com/peachananr/tiltedpage_scroll</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Sliders</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Slick</h3>
+				<p><a href="http://kenwheeler.github.io/slick/" target="blank" class="demo_link demo_link_show icon-link">http://kenwheeler.github.io/slick/</a></p>
+				<p><a href="https://github.com/kenwheeler/slick" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/kenwheeler/slick</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Tilted Content Slideshow</h3>
+				<p><a href="http://tympanus.net/codrops/2014/03/13/tilted-content-slideshow/" target="blank" class="demo_link demo_link_show icon-link">http://tympanus.net/codrops/2014/03/13/tilted-content-slideshow/</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Fotorama</h3>
+				<p><a href="http://fotorama.io/" target="blank" class="demo_link demo_link_show icon-link">http://fotorama.io/</a></p>
+				<p><a href="https://github.com/artpolikarpov/fotorama" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/artpolikarpov/fotorama</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Sly</h3>
+				<p class="demo_plugin_description">JavaScript library for one-directional scrolling with item based navigation support. </p>
+				<p><a href="http://darsa.in/sly/" target="blank" class="demo_link demo_link_show icon-link">http://darsa.in/sly/</a></p>
+				<p><a href="https://github.com/darsain/sly" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/darsain/sly</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">bxSlider</h3>
+				<p><a href="http://bxslider.com/" target="blank" class="demo_link demo_link_show icon-link">http://bxslider.com/</a></p>
+				<p><a href="https://github.com/stevenwanderski/bxslider-4" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/stevenwanderski/bxslider-4</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Swiper</h3>
+				<p class="demo_plugin_description">Most modern mobile touch slider with hardware accelerated transitions. </p>
+				<p><a href="http://www.idangero.us/swiper/#.VXK-odLtmko" target="blank" class="demo_link demo_link_show icon-link">http://www.idangero.us/swiper/#.VXK-odLtmko</a></p>
+				<p><a href="https://github.com/nolimits4web/Swiper" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/nolimits4web/Swiper</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Upload</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Flow.js</h3>
+				<p class="demo_plugin_description">A JavaScript library providing multiple simultaneous, stable, fault-tolerant and resumable/restartable file uploads via the HTML5 File API.</p>
+				<p><a href="https://github.com/flowjs/flow.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/flowjs/flow.js</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Date and time</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">CLNDR.js</h3>
+				<p class="demo_plugin_description">CLNDR is a jQuery calendar plugin. It was created- you've heard this before- out of frustration with the lack of truly dynamic front-end calendar plugins out there.</p>
+				<p><a href="http://kylestetz.github.io/CLNDR/" target="blank" class="demo_link demo_link_show icon-link">http://kylestetz.github.io/CLNDR/</a></p>
+				<p><a href="https://github.com/kylestetz/CLNDR" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/kylestetz/CLNDR</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">jquery.filthypillow</h3>
+				<p class="demo_plugin_description">A fancy and small calendar and date-time picker.</p>
+				<p><a href="http://aef-github.io/jquery.filthypillow/" target="blank" class="demo_link demo_link_show icon-link">http://aef-.github.io/jquery.filthypillow/</a></p>
+				<p><a href="https://github.com/aef-/jquery.filthypillow" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/aef-/jquery.filthypillow</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">ClockPicker</h3>
+				<p class="demo_plugin_description">A clock-style timepicker for Bootstrap (or jQuery).</p>
+				<p><a href="http://weareoutman.github.io/clockpicker/" target="blank" class="demo_link demo_link_show icon-link">http://weareoutman.github.io/clockpicker/</a></p>
+				<p><a href="https://github.com/weareoutman/clockpicker" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/weareoutman/clockpicker</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Drag&amp;Drop</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Draggabilly</h3>
+				<p class="demo_plugin_description">Make that shiz draggable.</p>
+				<p><a href="http://draggabilly.desandro.com/" target="blank" class="demo_link demo_link_show icon-link">http://draggabilly.desandro.com/</a></p>
+				<p><a href="https://github.com/desandro/draggabilly" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/desandro/draggabilly</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">JQUERY.PEP.JS</h3>
+				<p class="demo_plugin_description">Pep, a lightweight plugin for kinetic drag on mobile/desktop.</p>
+				<p><a href="http://pep.briangonzalez.org/" target="blank" class="demo_link demo_link_show icon-link">http://pep.briangonzalez.org/</a></p>
+				<p><a href="https://github.com/briangonzalez/jquery.pep.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/briangonzalez/jquery.pep.js</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Dragula</h3>
+				<p class="demo_plugin_description">Drag and drop so simple it hurts</p>
+				<p><a href="http://bevacqua.github.io/dragula/" target="blank" class="demo_link demo_link_show icon-link">http://bevacqua.github.io/dragula/</a></p>
+				<p><a href="https://github.com/bevacqua/dragula" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/bevacqua/dragula</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Editors</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">SVGOMG</h3>
+				<p class="demo_plugin_description">SVGOMG is SVGO's Missing GUI, aiming to expose the majority, if not all the configuration options of SVGO.</p>
+				<p><a href="https://github.com/jakearchibald/svgomg" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/jakearchibald/svgomg</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Squire</h3>
+				<p class="demo_plugin_description">Squire is an HTML5 rich text editor, which provides powerful cross-browser normalisation, whilst being supremely lightweight and flexible. It is built for the present and the future, and as such does not support truly ancient browsers.</p>
+				<p><a href="http://neilj.github.io/Squire/" target="blank" class="demo_link demo_link_show icon-link">http://neilj.github.io/Squire/</a></p>
+				<p><a href="https://github.com/neilj/Squire" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/neilj/Squire</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">wPaint.js</h3>
+				<p class="demo_plugin_description">A jQuery paint plugin for a simple drawing surface that you can easily pop into your pages, similar to the basic windows paint program.</p>
+				<p><a href="http://wpaint.websanova.com/" target="blank" class="demo_link demo_link_show icon-link">http://wpaint.websanova.com/</a></p>
+				<p><a href="https://github.com/websanova/wPaint" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/websanova/wPaint</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">JS Events</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">KeyboardJS</h3>
+				<p class="demo_plugin_description">KeyboardJS is an easy to use keyboard wrapper.</p>
+				<p><a href="https://github.com/RobertWHurst/KeyboardJS" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/RobertWHurst/KeyboardJS</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Keypress</h3>
+				<p class="demo_plugin_description">Keypress is a robust keyboard input capturing Javascript utility focused on input for games. </p>
+				<p><a href="http://dmauro.github.io/Keypress/" target="blank" class="demo_link demo_link_show icon-link">http://dmauro.github.io/Keypress/</a></p>
+				<p><a href="https://github.com/dmauro/Keypress" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/dmauro/Keypress</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Offline</h3>
+				<p class="demo_plugin_description">Automatically display online/offline indication to your users. </p>
+				<p><a href="http://github.hubspot.com/offline/docs/welcome/" target="blank" class="demo_link demo_link_show icon-link">http://github.hubspot.com/offline/docs/welcome/</a></p>
+				<p><a href="https://github.com/hubspot/offline" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/hubspot/offline</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">jquery-simple-context-menu</h3>
+				<p class="demo_plugin_description">A really simple, good looking jQuery context menu. </p>
+				<p><a href="http://joewalnes.github.io/jquery-simple-context-menu/" target="blank" class="demo_link demo_link_show icon-link">http://joewalnes.github.io/jquery-simple-context-menu/</a></p>
+				<p><a href="https://github.com/joewalnes/jquery-simple-context-menu" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/joewalnes/jquery-simple-context-menu</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Tags</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Tokeninput</h3>
+				<p class="demo_plugin_description">Tokeninput is a jQuery plugin which allows your users to select multiple items from a predefined list, using autocompletion as they type to find each item. You may have seen a similar type of text entry when filling in the recipients field sending messages on facebook.</p>
+				<p><a href="http://loopj.com/jquery-tokeninput/" target="blank" class="demo_link demo_link_show icon-link">http://loopj.com/jquery-tokeninput/</a></p>
+				<p><a href="https://github.com/loopj/jquery-tokeninput" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/loopj/jquery-tokeninput</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Tag-it</h3>
+				<p class="demo_plugin_description">A jQuery UI plugin to handle multi-tag fields as well as tag suggestions/autocomplete.</p>
+				<p><a href="http://aehlke.github.io/tag-it/examples.html" target="blank" class="demo_link demo_link_show icon-link">http://aehlke.github.io/tag-it/examples.html</a></p>
+				<p><a href="https://github.com/aehlke/tag-it" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/aehlke/tag-it</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">MagicSuggest</h3>
+				<p class="demo_plugin_description">Multiple Selection Combo Box using Bootstrap 3.</p>
+				<p><a href="http://nicolasbize.com/magicsuggest/examples.html" target="blank" class="demo_link demo_link_show icon-link">http://nicolasbize.com/magicsuggest/examples.html</a></p>
+				<p><a href="https://github.com/nicolasbize/magicsuggest" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/nicolasbize/magicsuggest</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Autocomplete</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">typeahead.js</h3>
+				<p class="demo_plugin_description">Inspired by twitter.com's autocomplete search functionality, typeahead.js is a flexible JavaScript library that provides a strong foundation for building robust typeaheads. </p>
+				<p><a href="https://github.com/twitter/typeahead.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/twitter/typeahead.js</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Geocomplete</h3>
+				<p class="demo_plugin_description">An advanced jQuery plugin that wraps the Google Maps API's Geocoding and Places Autocomplete services. You simply provide an input that lets you search for locations with a nice autocomplete dropdown. Optionally add a container to show an interactive map and a form that will be populated with the address details.</p>
+				<p><a href="http://ubilabs.github.io/geocomplete/" target="blank" class="demo_link demo_link_show icon-link">http://ubilabs.github.io/geocomplete/</a></p>
+				<p><a href="https://github.com/ubilabs/geocomplete" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/ubilabs/geocomplete</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Audio</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">toneden.js</h3>
+				<p class="demo_plugin_description">A pure JS customizable audio player for SoundCloud.</p>
+				<p><a href="https://www.toneden.io/player/" target="blank" class="demo_link demo_link_show icon-link">https://www.toneden.io/player</a></p>
+				<p><a href="https://github.com/ToneDen/toneden-sdk/" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/ToneDen/toneden-sdk/</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Beep.js</h3>
+				<p class="demo_plugin_description">Beep is a JavaScript toolkit for building browser-based synthesizers.</p>
+				<p><a href="http://beepjs.com/" target="blank" class="demo_link demo_link_show icon-link">http://beepjs.com/</a></p>
+				<p><a href="https://github.com/stewdio/beep.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/stewdio/beep.js</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Tab badges</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">favico.js</h3>
+				<p class="demo_plugin_description">Make use of your favicon with badges, images or videos . </p>
+				<p><a href="http://lab.ejci.net/favico.js/" target="blank" class="demo_link demo_link_show icon-link">http://lab.ejci.net/favico.js/</a></p>
+				<p><a href="https://github.com/ejci/favico.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/ejci/favico.js</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Title Notifier js</h3>
+				<p class="demo_plugin_description">Lightweight, dependency-free javascript library to dynamically show the number of unread notifications in your webpage title.</p>
+				<p><a href="http://roshiro.github.io/TitleNotifier.js/" target="blank" class="demo_link demo_link_show icon-link">http://roshiro.github.io/TitleNotifier.js/</a></p>
+				<p><a href="https://github.com/roshiro/TitleNotifier.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/roshiro/TitleNotifier.js</a></p>
+			</div>
+		</div>
+		<h2 class="demo_title demo_plugins_title">Others</h2>
+		<div class="demo_examples demo_container_columns3">
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Spritespin</h3>
+				<p class="demo_plugin_description">jQuery plugin for spriteanimationr.</p>
+				<p><a href="http://spritespin.ginie.eu/" target="blank" class="demo_link demo_link_show icon-link">http://spritespin.ginie.eu/</a></p>
+				<p><a href="https://github.com/giniedp/spritespin" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/giniedp/spritespin</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">OriDomi</h3>
+				<p class="demo_plugin_description">Fold up DOM elements like paper. </p>
+				<p><a href="http://oridomi.com/" target="blank" class="demo_link demo_link_show icon-link">http://oridomi.com/</a></p>
+				<p><a href="https://github.com/dmotz/oriDomi" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/dmotz/oriDomi</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">List.js</h3>
+				<p class="demo_plugin_description">Perfect library for adding search, sort, filters and flexibility to tables, lists and various HTML elements. Built to be invisible and work on existing HTML. Really simple and easy to use!</p>
+				<p><a href="https://github.com/javve/list.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/javve/list.js</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Hopscotch</h3>
+				<p class="demo_plugin_description">A framework to make it easy for developers to add product tours to their pages.</p>
+				<p><a href="http://linkedin.github.io/hopscotch/" target="blank" class="demo_link demo_link_show icon-link">http://linkedin.github.io/hopscotch/</a></p>
+				<p><a href="https://github.com/linkedin/hopscotch" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/linkedin/hopscotch</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">ImageLens</h3>
+				<p class="demo_plugin_description">ImageLens – A jQuery plug-in for Lens Effect Image Zooming.</p>
+				<p><a href="http://www.dailycoding.com/Posts/imagelens__a_jquery_plugin_for_lens_effect_image_zooming.aspx" target="blank" class="demo_link demo_link_show icon-link">http://www.dailycoding.com/Posts/imagelens__a_jquery_plugin_for_lens_effect_image_zooming.aspx</a></p>
+			</div>
+			<div class="demo_container_item">
+				<h3 class="demo_title_middle">Crossfade.js</h3>
+				<p class="demo_plugin_description">Crossfade.js is a tiny (~3kb) jQuery plugin for crossfading images as you scroll down a page. </p>
+				<p><a href="http://mikefowler.me/crossfade.js/" target="blank" class="demo_link demo_link_show icon-link">http://mikefowler.me/crossfade.js/</a></p>
+				<p><a href="https://github.com/mikefowler/crossfade.js" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/mikefowler/crossfade.js</a></p>
+			</div>
+		</div>
+	</section>
+	
+	<section class="demo_container demo_content">
+		<h2 class="demo_title">My plugins:</h2>
+		<div class="demo_stas_projects">
+			<a href="http://stas-melnikov.ru/layered_responsive_modal_window/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Responsive modal window</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/preloaders/" target="blank" class="main_container_item project css">
-				<h3 class="project_item">Preloaders</h3>
+			<a href="http://stas-melnikov.ru/preloaders/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_css">
+				<h3 class="demo_stas_project_item">Preloaders</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/webgl_generator_3dmodels/" target="blank" class="main_container_item project js">
-				<h3 class="project_item">WebGL Generator of Models</h3>
+			<a href="http://stas-melnikov.ru/webgl_generator_3dmodels/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">WebGL Generator of Models</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/themes/responsive_ux_template/" target="blank" class="main_container_item project html">
-				<h3 class="project_item">Responsive UX template</h3>
+			<a href="http://stas-melnikov.ru/themes/responsive_ux_template/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_html">
+				<h3 class="demo_stas_project_item">Responsive UX template</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/3d_panorama/" target="blank" class="main_container_item project js">
-				<h3 class="project_item">3d Panorams</h3>
+			<a href="http://stas-melnikov.ru/3d_panorama/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">3d Panorams</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/material_table/" target="blank" class="main_container_item project css">
-				<h3 class="project_item">Material responsive table</h3>
+			<a href="http://stas-melnikov.ru/material_table/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_css">
+				<h3 class="demo_stas_project_item">Material responsive table</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/responsive_elements/" target="blank" class="main_container_item project js">
-				<h3 class="project_item">Responsive Framework</h3>
+			<a href="http://stas-melnikov.ru/responsive_elements/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Responsive Framework</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/material_bootstrap_theme/" target="blank" class="main_container_item project css">
-				<h3 class="project_item">Material design for Bootstrap 3</h3>
+			<a href="http://stas-melnikov.ru/material_bootstrap_theme/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_css">
+				<h3 class="demo_stas_project_item">Material design for Bootstrap 3</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/library-of-plugins/" target="blank" class="main_container_item project js">
-				<h3 class="project_item">Library of plugins</h3>
+			<a href="http://stas-melnikov.ru/library-of-plugins/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Library of plugins</h3>
 			</a>
-			<a href="http://stas-melnikov.ru/magic_layout/" target="blank" class="main_container_item project js">
-				<h3 class="project_item">Magic Layout</h3>
+			<a href="http://stas-melnikov.ru/magic_layout/" target="blank" class="demo_container_item demo_stas_project demo_stas_project_js">
+				<h3 class="demo_stas_project_item">Magic Layout</h3>
 			</a>
 		</div>
 	</section>
-	<footer class="footer">
-		<div class="left_column">
-			<h3 class="title_middle">Social:</h3>
-			<div class="yashare-auto-init"  data-yashareL10n="en" data-yashareType="small" data-yashareQuickServices="facebook,twitter,gplus" data-yashareTheme="counter"></div>
-		</div>
-		<div class="right_column">
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" >
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="DZZD26SEBM75S">
-				<button style="padding: 8px 15px; border:1px solid #fff; color: #fff;border-radius: 5px;cursor: pointer;background-color: rgba(0,0,0,0)">Donate</button>
-			</form>
-			<div class="copyright"><a class="link" target="blank" href="https://www.linkedin.com/in/melnik909">Developed by Stas Melnikov</a></div>
+	<footer class="demo_footer">
+		<div class="demo_container">
+			<div class="social demo_footer_left_column">
+				<div class="yashare-auto-init" data-yashareL10n="en" data-yashareType="small" data-yashareQuickServices="twitter,gplus,facebook" data-yashareTheme="counter"></div>
+			</div>
+			<div class=" demo_footer_right_column">
+				<a target="blank" class="stas" href="https://www.linkedin.com/in/melnik909">Developed by Stas Melnikov</a>
+			</div>
 		</div>
 	</footer>
 <script>
 (function(){
 
 	var scripts = [
+
 		{
-			src: "//yastatic.net/share/share.js",
+			src : "//yastatic.net/share/share.js",
 			async: true,
 		}
 	],
-	
 	scripts_len = scripts.length;
-
 	
-	window.addEventListener('load', init(scripts));
-
-	
-	function init(scripts){
+	window.addEventListener('load', loadScripts(scripts));
+	function loadScripts(scripts){
 		var script;
 		setTimeout(function(){
 			if(window.outerWidth > 640){
-
 				for(var i = 0; i < scripts_len; i++){
 					script = document.createElement("script");
 					script.src = scripts[i].src;
@@ -164,9 +662,9 @@
 				}
 				
 			}
-		},500);
+		},1000);
 	}
 })();
-</script> 
+</script>
 </body>
 </html>
