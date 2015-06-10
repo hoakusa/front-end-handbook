@@ -47,6 +47,7 @@
 
 .donate{
 	float: right;
+	margin-right: 5%;
 }
 
 .demo_container_item{
@@ -94,12 +95,35 @@
 	color: #000;
 }
 
+.fork_me{
+	
+	display: block;
+	text-align: right;
+	
+	width: 12%;
+	height: 149px;
+
+	position: fixed;
+	right: 0;
+    top: 0;
+	z-index: 10;
+}
+
+.fork_me img{
+	max-width: 100%;
+	height: auto
+}
+
 @media screen and (max-width: 640px){ 
 	
 	.donate{
 		 float: none;
 		margin-top: 10px;
 		text-align: center;
+	}
+	
+	.fork_me {
+		width: 25%;
 	}
 	
 	.demo_content{
@@ -113,9 +137,9 @@
 	<div class="demo_wrapper">
 		<header class="demo_container">
 			<h1 class="demo_logo"><span class="demo_logo_item">Library</span> of plugins</h1>
-			<nav class="demo_menu">	
-				<a href="https://github.com/melnik909/library-of-plugins" class="demo_menu_link">GitHub</a>
-			</nav>
+			<a href="https://github.com/melnik909/library-of-plugins" class="fork_me">
+				<img src="fork_me.png" alt="fork" />
+			</a>
 			<form class="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" >
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="hosted_button_id" value="DZZD26SEBM75S">
