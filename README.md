@@ -3,7 +3,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 #Word of the author
 If you like my work, put likes. Also subscribe for updatings. It is important for me!
 #Help
-If you liked this theme, please donate to me on <a href="https://www.paypal.me/melnik909">PayPal</a> or contact me. Thanks!
+If you liked this theme, please donate to me on <a href="https://www.paypal.me/melnik909" target="blank">PayPal</a> or contact me. Thanks!
 ##Contact info
   * [my sait](http://stas-melnikov.ru)
   * [linkedIn](https://www.linkedin.com/in/melnik909)
