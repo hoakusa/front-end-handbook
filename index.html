@@ -145,7 +145,7 @@
 			<a href="https://github.com/melnik909/library-of-plugins" class="fork_me">
 				<img src="fork_me.png" alt="fork" />
 			</a>
-			<a href="https://www.paypal.me/melnik909" target="blank" class="donate">Donate</a>
+			<a href="https://www.paypal.me/melnik909" target="blank" class="donate ya_goal_js">Donate</a>
 
 		</header>
 	</div>
@@ -681,6 +681,12 @@
 		<section class="demo_examples demo_container_columns3">
 			<h2 class="demo_title demo_plugins_title">Others</h2>
 			<article class="demo_container_item">
+				<h3 class="demo_title_middle">CSSgram</h3>
+				<p class="demo_plugin_description">CSS library for Instagram filters.</p>
+				<p><a href="http://una.im/CSSgram/" target="blank" class="demo_link demo_link_show icon-link">http://una.im/CSSgram/</a></p>
+				<p><a href="https://github.com/una/CSSgram" target="blank" class="demo_link demo_link_show icon-github4">https://github.com/una/CSSgram</a></p>
+			</article>
+			<article class="demo_container_item">
 				<h3 class="demo_title_middle">substituteteacher.js</h3>
 				<p class="demo_plugin_description">substituteteacher.js will rotate through a series of sentences, transitioning between each one.</p>
 				<p><a href="http://danrschlosser.github.io/substituteteacher.js/" target="blank" class="demo_link demo_link_show icon-link">http://danrschlosser.github.io/substituteteacher.js/</a></p>
@@ -820,7 +826,7 @@
 	var scripts = [
 
 		{
-			src : "//yastatic.net/share/share.js",
+			src: "//yastatic.net/share/share.js",
 			async: true,
 		},
 		{
@@ -828,9 +834,23 @@
 			async: true,
 		}
 	],
-	scripts_len = scripts.length;
 	
+	goals = document.querySelectorAll(".ya_goal_js");
+
 	window.addEventListener('load', init);
+	
+	for(var i = 0, goals_len = goals.length; i < goals_len; i++){
+	
+		goals[i].addEventListener('mouseover', initClickGoal);
+		
+	}
+	
+	function initClickGoal(){
+	
+		yaCounter27292868.reachGoal('ya_goal_js');
+		return true; 
+		
+	}
 	
 	function init(){
 	
@@ -844,7 +864,6 @@
 			document.body.appendChild(script);
 			
 		}
-			
 	}
 })();
 </script>
