@@ -10,389 +10,523 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 </head>
 <body>
-		<header class="header">
-			<h1 class="logo">Library of plugins is a collection of ready-made decisions for front-end development</h1>
-		</header>
-		<div class="container">
-			<aside class="navbar">
-				<nav class="navbar__list">
-					<a href="#animation" class="navbar__link">Animation</a>
-					<a href="#form" class="navbar__link">Form</a>
-					<a href="#graphics" class="navbar__link">Graphics</a>
-					<a href="#lazyload" class="navbar__link">Lazyload</a>
-					<a href="#menu" class="navbar__link">Menu</a>
-					<a href="#lightboxs" class="navbar__link">Lightboxs</a>
-					<a href="#preloaders" class="navbar__link">Preloaders</a>
-					<a href="#dragdrop" class="navbar__link">Drag&Drop</a>
-					<a href="#editors" class="navbar__link">Editors</a>
-					<a href="#audio" class="navbar__link">Audio</a>
-					<a href="#badges" class="navbar__link">Tab badges</a>
-					<a href="#others" class="navbar__link">Others</a>	
-				</nav>
-				<footer class="navbar__footer">
-					<div class="social">
-						<div class="yashare-auto-init" data-yashareL10n="en" data-yashareType="small" data-yashareQuickServices="twitter,gplus,facebook" data-yashareTheme="counter"></div>
-					</div>
-					<div class="donate"><a href="https://www.paypal.me/melnik909" target="blank" class="donate__label ya_goal_js">Donate</a></div>
-					<a target="blank" class="stas" href="http://stas-melnikov.ru">Developed by Stas Melnikov</a>
-				</footer>
-			</aside>
-			<div class="content">
-				<p>
-					They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
-				</p>
-				
-				<section id="animation" class="plugins">
-					<h2 class="title plugins__title">Animation</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Animsition</h3>
-							<p class="plugin__description">A simple and easy jQuery plugin for css animated page transitions. </p>
-							<p><a href="http://git.blivesta.com/animsition/" target="blank" class="plugin__link plugin__icon icon-link">http://git.blivesta.com/animsition/</a></p>
-							<p><a href="https://github.com/blivesta/animsition" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/blivesta/animsition</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Snabbt.js</h3>
-							<p class="plugin__description">Fast animations with Javascript and CSS transforms(Work in progress)</p>
-							<p><a href="http://daniel-lundin.github.io/snabbt.js/" target="blank" class="plugin__link plugin__icon icon-link">http://daniel-lundin.github.io/snabbt.js/</a></p>
-							<p><a href="https://github.com/daniel-lundin/snabbt.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/daniel-lundin/snabbt.js</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">AniJS</h3>
-							<p class="plugin__description">A Library to Raise your Web Design without Coding. The most easy and quick way to Raise your web!!!</p>
-							<p><a href="http://anijs.github.io/" target="blank" class="plugin__link plugin__icon icon-link">http://anijs.github.io/</a></p>
-							<p><a href="https://github.com/anijs/anijs" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/anijs/anijs</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Hover.css</h3>
-							<p class="plugin__description">A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.</p>
-							<p><a href="http://ianlunn.github.io/Hover/" target="blank" class="plugin__link plugin__icon icon-link">http://ianlunn.github.io/Hover/</a></p>
-							<p><a href="https://github.com/IanLunn/Hover" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/IanLunn/Hover</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">jQuery Transit</h3>
-							<p class="plugin__description">jQuery Transit is a plugin for to help you do CSS transformations and transitions in jQuery.</p>
-							<p><a href="http://ricostacruz.com/jquery.transit/" target="blank" class="plugin__link plugin__icon icon-link">http://ricostacruz.com/jquery.transit/</a></p>
-							<p><a href="https://github.com/rstacruz/jquery.transit" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/rstacruz/jquery.transit</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">magic</h3>
-							<p class="plugin__description">CSS3 Animations with special effects.</p>
-							<p><a href="http://minimamente.com/example/magic_animations/" target="blank" class="plugin__link plugin__icon icon-link">http://minimamente.com/example/magic_animations/</a></p>
-							<p><a href="https://github.com/miniMAC/magic" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/miniMAC/magic</a></p>
-						</article>
-					</div>
-				</section>
+	<header class="header">
+		<h1 class="logo">Library of plugins is a collection of ready-made decisions for front-end development</h1>
+	</header>
+	<div class="container">
+		<aside class="navbar">
+			<nav class="navbar__list">
+				<a href="#animation" class="navbar__link">Animation</a>
+				<a href="#form" class="navbar__link">Form</a>
+				<a href="#layouts" class="navbar__link">Dynamic Layouts</a>
+				<a href="#graphics" class="navbar__link">Graphics</a>
+				<a href="#images" class="navbar__link">Images</a>
+				<a href="#sliders" class="navbar__link">Sliders</a>
+				<a href="#lazyload" class="navbar__link">Lazyload</a>
+				<a href="#menu" class="navbar__link">Menu</a>
+				<a href="#lightboxs" class="navbar__link">Lightboxs</a>
+				<a href="#modal" class="navbar__link">Modal Windows</a>
+				<a href="#preloaders" class="navbar__link">Preloaders</a>
+				<a href="#dragdrop" class="navbar__link">Drag&Drop</a>
+				<a href="#editors" class="navbar__link">Editors</a>
+				<a href="#audio" class="navbar__link">Audio</a>
+				<a href="#video" class="navbar__link">Video</a>
+				<a href="#badges" class="navbar__link">Tab badges</a>
+				<a href="#tooltips" class="navbar__link">Tooltips</a>
+				<a href="#others" class="navbar__link">Others</a>	
+			</nav>
+			<footer class="navbar__footer">
+				<div class="social">
+					<div class="yashare-auto-init" data-yashareL10n="en" data-yashareType="small" data-yashareQuickServices="twitter,gplus,facebook" data-yashareTheme="counter"></div>
+				</div>
+				<div class="donate"><a href="https://www.paypal.me/melnik909" target="blank" class="donate__label ya_goal_js">Donate</a></div>
+				<a target="blank" class="stas" href="http://stas-melnikov.ru">Developed by Stas Melnikov</a>
+			</footer>
+		</aside>
+		<div class="content">
+			<p>
+				They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
+			</p>
 			
-				<section id="form" class="plugins">
-					<h2 class="title plugins__title">Form</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Animated delete icon</h3>
-							<p><a href="http://codepen.io/yesilfasulye/pen/LmIlw" target="blank" class="plugin__link plugin__icon icon-link">http://codepen.io/yesilfasulye/pen/LmIlw</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">COLLECTION CSS3 BUTTONS</h3>
-							<p><a href="http://codepen.io/Angelfire/pen/opdDt" target="blank" class="plugin__link plugin__icon icon-link">http://codepen.io/Angelfire/pen/opdDt</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Progress Button Styles</h3>
-							<p class="plugin__description">A set of flat and 3D progress button styles where the button itself serves as a progress indicator. 3D styles are used for showing the progress indication on one side of the button while rotating the button in perspective.</p>
-							<p><a href="http://tympanus.net/codrops/2013/12/12/progress-button-styles/" target="blank" class="plugin__link plugin__icon icon-link">http://tympanus.net/codrops/2013/12/12/progress-button-styles/</a></p>
-							<p><a href="https://github.com/codrops/ProgressButtonStyles" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/codrops/ProgressButtonStyles</a></p>
-						</article>	
-					</div>
-				</section>
-				
-				<section id="graphics" class="plugins">
-					<h2 class="title plugins__title">Graphics</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Vivus.js</h3>
-							<p class="plugin__description">Vivus is a lightweight JavaScript class (with no dependencies) that allows you to animate SVGs, giving them the appearence of being drawn.</p>
-							<p><a href="http://maxwellito.github.io/vivus/" target="blank" class="plugin__link plugin__icon icon-link">http://maxwellito.github.io/vivus/</a></p>
-							<p><a href="https://github.com/maxwellito/vivus" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/maxwellito/vivus</a></p>
-						</article>
+			<section id="animation" class="plugins">
+				<h2 class="title plugins__title">Animation</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Animsition</h3>
+						<p class="plugin__description">A simple and easy jQuery plugin for css animated page transitions. </p>
+						<p><a href="http://git.blivesta.com/animsition/" target="blank" class="plugin__link plugin__icon icon-link">http://git.blivesta.com/animsition/</a></p>
+						<p><a href="https://github.com/blivesta/animsition" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/blivesta/animsition</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Snabbt.js</h3>
+						<p class="plugin__description">Fast animations with Javascript and CSS transforms(Work in progress)</p>
+						<p><a href="http://daniel-lundin.github.io/snabbt.js/" target="blank" class="plugin__link plugin__icon icon-link">http://daniel-lundin.github.io/snabbt.js/</a></p>
+						<p><a href="https://github.com/daniel-lundin/snabbt.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/daniel-lundin/snabbt.js</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">AniJS</h3>
+						<p class="plugin__description">A Library to Raise your Web Design without Coding. The most easy and quick way to Raise your web!!!</p>
+						<p><a href="http://anijs.github.io/" target="blank" class="plugin__link plugin__icon icon-link">http://anijs.github.io/</a></p>
+						<p><a href="https://github.com/anijs/anijs" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/anijs/anijs</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Hover.css</h3>
+						<p class="plugin__description">A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.</p>
+						<p><a href="http://ianlunn.github.io/Hover/" target="blank" class="plugin__link plugin__icon icon-link">http://ianlunn.github.io/Hover/</a></p>
+						<p><a href="https://github.com/IanLunn/Hover" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/IanLunn/Hover</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">jQuery Transit</h3>
+						<p class="plugin__description">jQuery Transit is a plugin for to help you do CSS transformations and transitions in jQuery.</p>
+						<p><a href="http://ricostacruz.com/jquery.transit/" target="blank" class="plugin__link plugin__icon icon-link">http://ricostacruz.com/jquery.transit/</a></p>
+						<p><a href="https://github.com/rstacruz/jquery.transit" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/rstacruz/jquery.transit</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">magic</h3>
+						<p class="plugin__description">CSS3 Animations with special effects.</p>
+						<p><a href="http://minimamente.com/example/magic_animations/" target="blank" class="plugin__link plugin__icon icon-link">http://minimamente.com/example/magic_animations/</a></p>
+						<p><a href="https://github.com/miniMAC/magic" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/miniMAC/magic</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Walkway</h3>
+						<p class="plugin__description">An easy way to animate SVG elements.</p>
+						<p><a href="https://connoratherton.com/walkway" target="blank" class="plugin__link plugin__icon icon-link">https://connoratherton.com/walkway</a></p>
+						<p><a href="https://github.com/ConnorAtherton/walkway" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/ConnorAtherton/walkway</a></p>
+					</article>
+				</div>
+			</section>
+		
+			<section id="form" class="plugins">
+				<h2 class="title plugins__title">Form</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Animated delete icon</h3>
+						<p><a href="http://codepen.io/yesilfasulye/pen/LmIlw" target="blank" class="plugin__link plugin__icon icon-link">http://codepen.io/yesilfasulye/pen/LmIlw</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">COLLECTION CSS3 BUTTONS</h3>
+						<p><a href="http://codepen.io/Angelfire/pen/opdDt" target="blank" class="plugin__link plugin__icon icon-link">http://codepen.io/Angelfire/pen/opdDt</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Progress Button Styles</h3>
+						<p class="plugin__description">A set of flat and 3D progress button styles where the button itself serves as a progress indicator. 3D styles are used for showing the progress indication on one side of the button while rotating the button in perspective.</p>
+						<p><a href="http://tympanus.net/codrops/2013/12/12/progress-button-styles/" target="blank" class="plugin__link plugin__icon icon-link">http://tympanus.net/codrops/2013/12/12/progress-button-styles/</a></p>
+						<p><a href="https://github.com/codrops/ProgressButtonStyles" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/codrops/ProgressButtonStyles</a></p>
+					</article>	
+				</div>
+			</section>
 
-						<article class="plugin">
-							<h3 class="title title_middle">Chartist.js</h3>
-							<p class="plugin__description">Chartist's goal is to provide a simple, lightweight and unintrusive library to responsively craft charts on your website. It's important to understand that one of the main intentions of Chartist.js is to rely on standards rather than providing it's own solution to a problem which is already solved by those standards.</p>
-							<p><a href="http://gionkunz.github.io/chartist-js/" target="blank" class="plugin__link plugin__icon icon-link">http://gionkunz.github.io/chartist-js/</a></p>
-							<p><a href="https://github.com/gionkunz/chartist-js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/gionkunz/chartist-js</a></p>
-						</article>	
-						<article class="plugin">
-							<h3 class="title title_middle">dc.js</h3>
-							<p class="plugin__description">Dimensional charting built to work natively with crossfilter rendered using d3.js. Check out the example page with a quick five minutes how to guide. For a detailed API reference and more please visit the Wiki.</p>
-							<p><a href="https://github.com/dc-js/dc.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/dc-js/dc.js</a></p>
-						</article>	
-						<article class="plugin">
-							<h3 class="title title_middle">vis.js</h3>
-							<p class="plugin__description">Vis.js is a dynamic, browser based visualization library. The library is designed to be easy to use, handle large amounts of dynamic data, and enable manipulation of the data. </p>
-							<p><a href="https://github.com/almende/vis" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/almende/vis</a></p>
-						</article>	
-						<article class="plugin">
-							<h3 class="title title_middle">Highcharts JS</h3>
-							<p class="plugin__description">Highcharts JS is a JavaScript charting library based on SVG and VML rendering.</p>
-							<p><a href="http://www.highcharts.com/" target="blank" class="plugin__link plugin__icon icon-link">http://www.highcharts.com/</a></p>
-							<p><a href="https://github.com/highslide-software/highcharts.com" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/highslide-software/highcharts.com</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">jsPlumb</h3>
-							<p class="plugin__description">jsPlumb provides a means for a developer to visually connect elements on their web pages. It uses SVG or Canvas in modern browsers, and VML on IE 8 and below. </p>
-							<p><a href="https://jsplumbtoolkit.com/demo/flowchart/dom.html" target="blank" class="plugin__link plugin__icon icon-link">https://jsplumbtoolkit.com/demo/flowchart/dom.html</a></p>
-							<p><a href="https://github.com/sporritt/jsplumb/" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/sporritt/jsplumb/</a></p>
-						</article>
-					</div>
-				</section>
-								
-				<section id="lazyload" class="plugins">
-					<h2 class="title plugins__title">Lazyload</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Echo.js</h3>
-							<p class="plugin__description">Echo is a standalone JavaScript lazy-loading image micro-library. Echo is fast, 2KB, and uses HTML5 data-* attributes for simple. Check out a demo. Echo works in IE8+.</p>
-							<p><a href="https://github.com/toddmotto/echo" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/toddmotto/echo</a></p>
-						</article>
-
-						<article class="plugin">
-							<h3 class="title title_middle">lazysizes</h3>
-							<p class="plugin__description">lazysizes is a fast (jank-free) and self-initializing lazyloader for images (including responsive images picture/srcset), iframes, scripts/widgets and much more.</p>
-							<p><a href="https://github.com/aFarkas/lazysizes" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/aFarkas/lazysizes</a></p>
-						</article>
-					</div>
-				</section>
+			<section id="layouts" class="plugins">
+				<h2 class="title plugins__title">Dynamic Layouts</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">TreeGrid</h3>
+						<p class="plugin__description">Create TreeGrid from HTML table</p>
+						<p><a href="http://maxazan.github.io/jquery-treegrid/" target="blank" class="plugin__link plugin__icon icon-link">http://maxazan.github.io/jquery-treegrid/</a></p>
+						<p><a href="https://github.com/maxazan/jquery-treegrid" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/maxazan/jquery-treegrid</a></p>
+					</article>	
+					<article class="plugin">
+						<h3 class="title title_middle">Wookmark-jQuery</h3>
+						<p class="plugin__description">A jQuery plugin to create a dynamic, multi-column layout.</p>
+						<p><a href="http://www.wookmark.com/jquery-plugin" target="blank" class="plugin__link plugin__icon icon-link">http://www.wookmark.com/jquery-plugin</a></p>
+						<p><a href="https://github.com/germanysbestkeptsecret/Wookmark-jQuery" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/germanysbestkeptsecret/Wookmark-jQuery</a></p>
+					</article>
+				</div>
+			</section>
 			
-				<section id="menu" class="plugins">	
-					<h2 class="title plugins__title">Menu</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">PriorityNavigation.js</h3>
-							<p class="plugin__description">PriorityNav is a lightweight pure javascript plugin that will move your menu items if they don't fit its parent. </p>
-							<p><a href="http://gijsroge.github.io/priority-nav.js/" target="blank" class="plugin__link plugin__icon icon-link">http://gijsroge.github.io/priority-nav.js/</a></p>
-							<p><a href="https://github.com/gijsroge/priority-navigation" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/gijsroge/priority-navigation</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">ScrollIt.js </h3>
-							<p class="plugin__description">Ascensor is a jquery plugin which aims to train and adapt content according to an elevator system </p>
-							<p><a href="http://www.bytemuse.com/scrollIt.js/" target="blank" class="plugin__link plugin__icon icon-link">http://www.bytemuse.com/scrollIt.js/</a></p>
-							<p><a href="https://github.com/cmpolis/scrollIt.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/cmpolis/scrollIt.js</a></p>
-						</article>
-					</div>
-				</section>
+			<section id="graphics" class="plugins">
+				<h2 class="title plugins__title">Graphics</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Vivus.js</h3>
+						<p class="plugin__description">Vivus is a lightweight JavaScript class (with no dependencies) that allows you to animate SVGs, giving them the appearence of being drawn.</p>
+						<p><a href="http://maxwellito.github.io/vivus/" target="blank" class="plugin__link plugin__icon icon-link">http://maxwellito.github.io/vivus/</a></p>
+						<p><a href="https://github.com/maxwellito/vivus" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/maxwellito/vivus</a></p>
+					</article>
+
+					<article class="plugin">
+						<h3 class="title title_middle">Chartist.js</h3>
+						<p class="plugin__description">Chartist's goal is to provide a simple, lightweight and unintrusive library to responsively craft charts on your website. It's important to understand that one of the main intentions of Chartist.js is to rely on standards rather than providing it's own solution to a problem which is already solved by those standards.</p>
+						<p><a href="http://gionkunz.github.io/chartist-js/" target="blank" class="plugin__link plugin__icon icon-link">http://gionkunz.github.io/chartist-js/</a></p>
+						<p><a href="https://github.com/gionkunz/chartist-js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/gionkunz/chartist-js</a></p>
+					</article>	
+					<article class="plugin">
+						<h3 class="title title_middle">dc.js</h3>
+						<p class="plugin__description">Dimensional charting built to work natively with crossfilter rendered using d3.js. Check out the example page with a quick five minutes how to guide. For a detailed API reference and more please visit the Wiki.</p>
+						<p><a href="https://github.com/dc-js/dc.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/dc-js/dc.js</a></p>
+					</article>	
+					<article class="plugin">
+						<h3 class="title title_middle">vis.js</h3>
+						<p class="plugin__description">Vis.js is a dynamic, browser based visualization library. The library is designed to be easy to use, handle large amounts of dynamic data, and enable manipulation of the data. </p>
+						<p><a href="https://github.com/almende/vis" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/almende/vis</a></p>
+					</article>	
+					<article class="plugin">
+						<h3 class="title title_middle">Highcharts JS</h3>
+						<p class="plugin__description">Highcharts JS is a JavaScript charting library based on SVG and VML rendering.</p>
+						<p><a href="http://www.highcharts.com/" target="blank" class="plugin__link plugin__icon icon-link">http://www.highcharts.com/</a></p>
+						<p><a href="https://github.com/highslide-software/highcharts.com" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/highslide-software/highcharts.com</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">jsPlumb</h3>
+						<p class="plugin__description">jsPlumb provides a means for a developer to visually connect elements on their web pages. It uses SVG or Canvas in modern browsers, and VML on IE 8 and below. </p>
+						<p><a href="https://jsplumbtoolkit.com/demo/flowchart/dom.html" target="blank" class="plugin__link plugin__icon icon-link">https://jsplumbtoolkit.com/demo/flowchart/dom.html</a></p>
+						<p><a href="https://github.com/sporritt/jsplumb/" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/sporritt/jsplumb/</a></p>
+					</article>
+				</div>
+			</section>
+
+			<section id="images" class="plugins">
+				<h2 class="title plugins__title">Images</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Image Cropper</h3>
+						<p class="plugin__description">A simple jQuery image cropping plugin.</p>
+						<p><a href="http://fengyuanchen.github.io/cropper/" target="blank" class="plugin__link plugin__icon icon-link">http://fengyuanchen.github.io/cropper/</a></p>
+						<p><a href="https://github.com/fengyuanchen/cropper" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/fengyuanchen/cropper</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">CSSgram</h3>
+						<p class="plugin__description">CSS library for Instagram filters.</p>
+						<p><a href="http://una.im/CSSgram/" target="blank" class="plugin__link plugin__icon icon-link">http://una.im/CSSgram/</a></p>
+						<p><a href="https://github.com/una/CSSgram" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/una/CSSgram</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">ImageLens</h3>
+						<p class="plugin__description">ImageLens – A jQuery plug-in for Lens Effect Image Zooming.</p>
+						<p><a href="http://www.dailycoding.com/Posts/imagelens__a_jquery_plugin_for_lens_effect_image_zooming.aspx" target="blank" class="plugin__link plugin__icon icon-link">http://www.dailycoding.com/Posts/imagelens__a_jquery_plugin_for_lens_effect_image_zooming.aspx</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Crossfade.js</h3>
+						<p class="plugin__description">Crossfade.js is a tiny (~3kb) jQuery plugin for crossfading images as you scroll down a page. </p>
+						<p><a href="http://mikefowler.me/crossfade.js/" target="blank" class="plugin__link plugin__icon icon-link">http://mikefowler.me/crossfade.js/</a></p>
+						<p><a href="https://github.com/mikefowler/crossfade.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/mikefowler/crossfade.js</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Image Blur Plugin</h3>
+						<p class="plugin__description">Ultra light cross browser image blurring plugin for jQuery </p>
+						<p><a href="http://msurguy.github.io/background-blur/" target="blank" class="plugin__link plugin__icon icon-link">http://msurguy.github.io/background-blur/</a></p>
+						<p><a href="https://github.com/msurguy/background-blur" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/msurguy/background-blur</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">About Zoom</h3>
+						<p class="plugin__description">A small jQuery plugin for zooming images on mouseover or mousedown. See the project page for documentation and a demonstration.</p>
+						<p><a href="http://www.jacklmoore.com/zoom/" target="blank" class="plugin__link plugin__icon icon-link">http://www.jacklmoore.com/zoom/</a></p>
+						<p><a href="https://github.com/jackmoore/zoom" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/jackmoore/zoom</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Vegas – Backgrounds and Slideshows</h3>
+						<p class="plugin__description">Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements.</p>
+						<p><a href="http://vegas.jaysalvat.com/" target="blank" class="plugin__link plugin__icon icon-link">http://vegas.jaysalvat.com/</a></p>
+						<p><a href="https://github.com/jaysalvat/vegas" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/jaysalvat/vegas</a></p>
+					</article>
+				</div>
+			</section>
 				
-				<section id="lightboxs" class="plugins">
-					<h2 class="title plugins__title">Lightboxs</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">lightGallery</h3>
-							<p class="plugin__description">A customizable, modular, responsive, lightbox gallery plugin for jQuery. </p>
-							<p><a href="http://sachinchoolur.github.io/lightGallery/" target="blank" class="plugin__link plugin__icon icon-link">http://sachinchoolur.github.io/lightGallery/</a></p>
-							<p><a href="https://github.com/sachinchoolur/lightGallery" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/sachinchoolur/lightGallery</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Swipebox</h3>
-							<p class="plugin__description">A touchable jQuery lightbox.</p>
-							<p><a href="https://brutaldesign.github.io/swipebox/" target="blank" class="plugin__link plugin__icon icon-link">https://brutaldesign.github.io/swipebox/</a></p>
-							<p><a href="https://github.com/brutaldesign/swipebox" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/brutaldesign/swipebox</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">blueimp Gallery</h3>
-							<p class="plugin__description">blueimp Gallery is a touch-enabled, responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers.</p>
-							<p><a href="https://blueimp.github.io/Gallery/" target="blank" class="plugin__link plugin__icon icon-link">https://blueimp.github.io/Gallery/</a></p>
-							<p><a href="https://github.com/blueimp/Gallery" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/blueimp/Gallery</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Lightbox</h3>
-							<p class="plugin__description">Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.</p>
-							<p><a href="http://lokeshdhakar.com/projects/lightbox2/" target="blank" class="plugin__link plugin__icon icon-link">http://lokeshdhakar.com/projects/lightbox2/</a></p>
-							<p><a href="https://github.com/lokesh/lightbox2" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/lokesh/lightbox2</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Colorbox</h3>
-							<p class="plugin__description">A customizable lightbox plugin for jQuery.</p>
-							<p><a href="http://www.jacklmoore.com/colorbox/" target="blank" class="plugin__link plugin__icon icon-link">http://www.jacklmoore.com/colorbox/</a></p>
-							<p><a href="https://github.com/jackmoore/colorbox" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/jackmoore/colorbox</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Custombox.js </h3>
-							<p class="plugin__description">Modal Window Effects with transitions CSS3. See the project page for documentation and a demonstration.</p>
-							<p><a href="http://dixso.github.io/custombox/" target="blank" class="plugin__link plugin__icon icon-link">http://dixso.github.io/custombox/</a></p>
-							<p><a href="https://github.com/dixso/custombox" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/dixso/custombox</a></p>
-						</article>
-					</div>
-				</section>
-				
-				<section id="preloaders" class="plugins">
-					<h2 class="title plugins__title">Preloaders</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Single Element CSS Spinners </h3>
-							<p class="plugin__description">This is a collection of loading spinners animated with CSS. Each spinner consists of a single article with a class of loader and content text of"Loading...". The text is for screen readers and can be used as a fallback state for older browsers.</p>
-							<p><a href="http://projects.lukehaas.me/css-loaders/" target="blank" class="plugin__link plugin__icon icon-link">http://projects.lukehaas.me/css-loaders/</a></p>
-							<p><a href="https://github.com/lukehaas/css-loaders" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/lukehaas/css-loaders</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Loaders</h3>
-							<p><a href="http://codepen.io/matthewpalmer/pen/nFmtg" target="blank" class="plugin__link plugin__icon icon-link">http://codepen.io/matthewpalmer/pen/nFmtg</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Loaders.css</h3>
-							<p class="plugin__description">Delightful and performance-focused pure css loading animations.</p>
-							<p><a href="http://connoratherton.com/loaders" target="blank" class="plugin__link plugin__icon icon-link">http://connoratherton.com/loaders</a></p>
-							<p><a href="https://github.com/ConnorAtherton/loaders.css" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/ConnorAtherton/loaders.css</a></p>
-						</article>
-					</div>
-				</section>
-				
-				<section id="dragdrop" class="plugins">
-					<h2 class="title plugins__title">Drag&amp;Drop</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">JQUERY.PEP.JS</h3>
-							<p class="plugin__description">Pep, a lightweight plugin for kinetic drag on mobile/desktop.</p>
-							<p><a href="http://pep.briangonzalez.org/" target="blank" class="plugin__link plugin__icon icon-link">http://pep.briangonzalez.org/</a></p>
-							<p><a href="https://github.com/briangonzalez/jquery.pep.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/briangonzalez/jquery.pep.js</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Dragula</h3>
-							<p class="plugin__description">Drag and drop so simple it hurts</p>
-							<p><a href="http://bevacqua.github.io/dragula/" target="blank" class="plugin__link plugin__icon icon-link">http://bevacqua.github.io/dragula/</a></p>
-							<p><a href="https://github.com/bevacqua/dragula" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/bevacqua/dragula</a></p>
-						</article>
-					</div>
-				</section>
-				
-				<section id="editors" class="plugins">
-					<h2 class="title plugins__title">Editors</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">SVGOMG</h3>
-							<p class="plugin__description">SVGOMG is SVGO's Missing GUI, aiming to expose the majority, if not all the configuration options of SVGO.</p>
-							<p><a href="https://github.com/jakearchibald/svgomg" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/jakearchibald/svgomg</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Squire</h3>
-							<p class="plugin__description">Squire is an HTML5 rich text editor, which provides powerful cross-browser normalisation, whilst being supremely lightweight and flexible. It is built for the present and the future, and as such does not support truly ancient browsers.</p>
-							<p><a href="http://neilj.github.io/Squire/" target="blank" class="plugin__link plugin__icon icon-link">http://neilj.github.io/Squire/</a></p>
-							<p><a href="https://github.com/neilj/Squire" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/neilj/Squire</a></p>
-						</article>
-					</div>
-				</section>
-				
-				<section id="audio" class="plugins">
-					<h2 class="title plugins__title">Audio</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Howler.js</h3>
-							<p class="plugin__description">Javascript audio library for the modern web.</p>
-							<p><a href="http://howlerjs.com" target="blank" class="plugin__link plugin__icon icon-link">http://howlerjs.com</a></p>
-							<p><a href="https://github.com/goldfire/howler.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/goldfire/howler.js</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Toneden.js</h3>
-							<p class="plugin__description">A pure JS customizable audio player for SoundCloud.</p>
-							<p><a href="https://www.toneden.io/player/" target="blank" class="plugin__link plugin__icon icon-link">https://www.toneden.io/player</a></p>
-							<p><a href="https://github.com/ToneDen/toneden-sdk/" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/ToneDen/toneden-sdk/</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Beep.js</h3>
-							<p class="plugin__description">Beep is a JavaScript toolkit for building browser-based synthesizers.</p>
-							<p><a href="http://beepjs.com/" target="blank" class="plugin__link plugin__icon icon-link">http://beepjs.com/</a></p>
-							<p><a href="https://github.com/stewdio/beep.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/stewdio/beep.js</a></p>
-						</article>
-					</div>
-				</section>
-				
-				<section id="badges" class="plugins">
-					<h2 class="title plugins__title">Tab badges</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Piecon</h3>
-							<p class="plugin__description">A tiny javascript library for generating progress pie charts in your favicon.</p>
-							<p><a href="https://lipka.github.io/piecon/" target="blank" class="plugin__link plugin__icon icon-link">https://lipka.github.io/piecon/</a></p>
-							<p><a href="https://github.com/lipka/piecon" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/lipka/piecon</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Title Notifier js</h3>
-							<p class="plugin__description">Lightweight, dependency-free javascript library to dynamically show the number of unread notifications in your webpage title.</p>
-							<p><a href="http://roshiro.github.io/TitleNotifier.js/" target="blank" class="plugin__link plugin__icon icon-link">http://roshiro.github.io/TitleNotifier.js/</a></p>
-							<p><a href="https://github.com/roshiro/TitleNotifier.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/roshiro/TitleNotifier.js</a></p>
-						</article>
-					</div>
-				</section>
-				
-				<section id="others" class="plugins">
-					<h2 class="title plugins__title">Others</h2>
-					<div class="plugins__inner">
-						<article class="plugin">
-							<h3 class="title title_middle">Geocomplete</h3>
-							<p class="plugin__description">An advanced jQuery plugin that wraps the Google Maps API's Geocoding and Places Autocomplete services. You simply provide an input that lets you search for locations with a nice autocomplete dropdown. Optionally add a container to show an interactive map and a form that will be populated with the address details.</p>
-							<p><a href="http://ubilabs.github.io/geocomplete/" target="blank" class="plugin__link plugin__icon icon-link">http://ubilabs.github.io/geocomplete/</a></p>
-							<p><a href="https://github.com/ubilabs/geocomplete" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/ubilabs/geocomplete</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Tag-it</h3>
-							<p class="plugin__description">A jQuery UI plugin to handle multi-tag fields as well as tag suggestions/autocomplete.</p>
-							<p><a href="http://aehlke.github.io/tag-it/examples.html" target="blank" class="plugin__link plugin__icon icon-link">http://aehlke.github.io/tag-it/examples.html</a></p>
-							<p><a href="https://github.com/aehlke/tag-it" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/aehlke/tag-it</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">jquery-simple-context-menu</h3>
-							<p class="plugin__description">A really simple, good looking jQuery context menu. </p>
-							<p><a href="http://joewalnes.github.io/jquery-simple-context-menu/" target="blank" class="plugin__link plugin__icon icon-link">http://joewalnes.github.io/jquery-simple-context-menu/</a></p>
-							<p><a href="https://github.com/joewalnes/jquery-simple-context-menu" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/joewalnes/jquery-simple-context-menu</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">ClockPicker</h3>
-							<p class="plugin__description">A clock-style timepicker for Bootstrap (or jQuery).</p>
-							<p><a href="http://weareoutman.github.io/clockpicker/" target="blank" class="plugin__link plugin__icon icon-link">http://weareoutman.github.io/clockpicker/</a></p>
-							<p><a href="https://github.com/weareoutman/clockpicker" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/weareoutman/clockpicker</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">jQuery ListNav Plugin</h3>
-							<p class="plugin__description">Create a world of alphabetical navigation filters one list at a time!</p>
-							<p><a href="http://ericsteinborn.com/jquery-listnav/" target="blank" class="plugin__link plugin__icon icon-link">http://ericsteinborn.com/jquery-listnav/</a></p>
-							<p><a href="https://github.com/esteinborn/jquery-listnav" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/esteinborn/jquery-listnav</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Image Cropper</h3>
-							<p class="plugin__description">A simple jQuery image cropping plugin.</p>
-							<p><a href="http://fengyuanchen.github.io/cropper/" target="blank" class="plugin__link plugin__icon icon-link">http://fengyuanchen.github.io/cropper/</a></p>
-							<p><a href="https://github.com/fengyuanchen/cropper" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/fengyuanchen/cropper</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">CSSgram</h3>
-							<p class="plugin__description">CSS library for Instagram filters.</p>
-							<p><a href="http://una.im/CSSgram/" target="blank" class="plugin__link plugin__icon icon-link">http://una.im/CSSgram/</a></p>
-							<p><a href="https://github.com/una/CSSgram" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/una/CSSgram</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">UpUp - Kickstarting the Offline First Revolution</h3>
-							<p class="plugin__description">Kickstarting the Offline-First Revolution</p>
-							<p><a href="https://www.talater.com/upup/" target="blank" class="plugin__link plugin__icon icon-link">https://www.talater.com/upup/</a></p>
-							<p><a href="https://github.com/TalAter/UpUp" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/TalAter/UpUp</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">ImageLens</h3>
-							<p class="plugin__description">ImageLens – A jQuery plug-in for Lens Effect Image Zooming.</p>
-							<p><a href="http://www.dailycoding.com/Posts/imagelens__a_jquery_plugin_for_lens_effect_image_zooming.aspx" target="blank" class="plugin__link plugin__icon icon-link">http://www.dailycoding.com/Posts/imagelens__a_jquery_plugin_for_lens_effect_image_zooming.aspx</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">Crossfade.js</h3>
-							<p class="plugin__description">Crossfade.js is a tiny (~3kb) jQuery plugin for crossfading images as you scroll down a page. </p>
-							<p><a href="http://mikefowler.me/crossfade.js/" target="blank" class="plugin__link plugin__icon icon-link">http://mikefowler.me/crossfade.js/</a></p>
-							<p><a href="https://github.com/mikefowler/crossfade.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/mikefowler/crossfade.js</a></p>
-						</article>
-						<article class="plugin">
-							<h3 class="title title_middle">AlloyUI</h3>
-							<p class="plugin__description">AlloyUI is a framework built on top of YUI3 (JavaScript) that uses Bootstrap 3 (HTML/CSS) to provide a simple API for building high scalable applications. </p>
-							<p><a href="https://github.com/liferay/alloy-ui/" target="blank" class="plugin__link plugin__icon icon-link">https://github.com/liferay/alloy-ui/</a></p>
-							<p><a href="https://github.com/liferay/alloy-ui/" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/liferay/alloy-ui/</a></p>
-						</article>
-					</div>
-				</section>
-			</div>
+			<section id="sliders" class="plugins">
+				<h2 class="title plugins__title">Sliders</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">JQuery lightSlider</h3>
+						<p class="plugin__description">JQuery lightSlider is a lightweight responsive Content slider with carousel thumbnails navigation</p>
+						<p><a href="http://sachinchoolur.github.io/lightslider/" target="blank" class="plugin__link plugin__icon icon-link">http://sachinchoolur.github.io/lightslider/</a></p>
+						<p><a href="https://github.com/sachinchoolur/lightslider/" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/sachinchoolur/lightslider/</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Simple Image Slider</h3>
+						<p class="plugin__description">A simple jquery plugin for creating image comparison sliders</p>
+						<p><a href="http://kavyasukumar.com/apps/imgSlider/" target="blank" class="plugin__link plugin__icon icon-link">http://kavyasukumar.com/apps/imgSlider/</a></p>
+						<p><a href="https://github.com/kavyasukumar/imgSlider" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/kavyasukumar/imgSlider</a></p>
+					</article>
+				</div>
+			</section>		
+
+			<section id="lazyload" class="plugins">
+				<h2 class="title plugins__title">Lazyload</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Echo.js</h3>
+						<p class="plugin__description">Echo is a standalone JavaScript lazy-loading image micro-library. Echo is fast, 2KB, and uses HTML5 data-* attributes for simple. Check out a demo. Echo works in IE8+.</p>
+						<p><a href="https://github.com/toddmotto/echo" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/toddmotto/echo</a></p>
+					</article>
+
+					<article class="plugin">
+						<h3 class="title title_middle">lazysizes</h3>
+						<p class="plugin__description">lazysizes is a fast (jank-free) and self-initializing lazyloader for images (including responsive images picture/srcset), iframes, scripts/widgets and much more.</p>
+						<p><a href="https://github.com/aFarkas/lazysizes" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/aFarkas/lazysizes</a></p>
+					</article>
+				</div>
+			</section>
+		
+			<section id="menu" class="plugins">	
+				<h2 class="title plugins__title">Menu</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">PriorityNavigation.js</h3>
+						<p class="plugin__description">PriorityNav is a lightweight pure javascript plugin that will move your menu items if they don't fit its parent. </p>
+						<p><a href="http://gijsroge.github.io/priority-nav.js/" target="blank" class="plugin__link plugin__icon icon-link">http://gijsroge.github.io/priority-nav.js/</a></p>
+						<p><a href="https://github.com/gijsroge/priority-navigation" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/gijsroge/priority-navigation</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">ScrollIt.js </h3>
+						<p class="plugin__description">Ascensor is a jquery plugin which aims to train and adapt content according to an elevator system </p>
+						<p><a href="http://www.bytemuse.com/scrollIt.js/" target="blank" class="plugin__link plugin__icon icon-link">http://www.bytemuse.com/scrollIt.js/</a></p>
+						<p><a href="https://github.com/cmpolis/scrollIt.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/cmpolis/scrollIt.js</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">jquery-simple-context-menu</h3>
+						<p class="plugin__description">A really simple, good looking jQuery context menu. </p>
+						<p><a href="http://joewalnes.github.io/jquery-simple-context-menu/" target="blank" class="plugin__link plugin__icon icon-link">http://joewalnes.github.io/jquery-simple-context-menu/</a></p>
+						<p><a href="https://github.com/joewalnes/jquery-simple-context-menu" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/joewalnes/jquery-simple-context-menu</a></p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="lightboxs" class="plugins">
+				<h2 class="title plugins__title">Lightboxs</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">lightGallery</h3>
+						<p class="plugin__description">A customizable, modular, responsive, lightbox gallery plugin for jQuery. </p>
+						<p><a href="http://sachinchoolur.github.io/lightGallery/" target="blank" class="plugin__link plugin__icon icon-link">http://sachinchoolur.github.io/lightGallery/</a></p>
+						<p><a href="https://github.com/sachinchoolur/lightGallery" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/sachinchoolur/lightGallery</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Swipebox</h3>
+						<p class="plugin__description">A touchable jQuery lightbox.</p>
+						<p><a href="https://brutaldesign.github.io/swipebox/" target="blank" class="plugin__link plugin__icon icon-link">https://brutaldesign.github.io/swipebox/</a></p>
+						<p><a href="https://github.com/brutaldesign/swipebox" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/brutaldesign/swipebox</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">blueimp Gallery</h3>
+						<p class="plugin__description">blueimp Gallery is a touch-enabled, responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers.</p>
+						<p><a href="https://blueimp.github.io/Gallery/" target="blank" class="plugin__link plugin__icon icon-link">https://blueimp.github.io/Gallery/</a></p>
+						<p><a href="https://github.com/blueimp/Gallery" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/blueimp/Gallery</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Lightbox</h3>
+						<p class="plugin__description">Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.</p>
+						<p><a href="http://lokeshdhakar.com/projects/lightbox2/" target="blank" class="plugin__link plugin__icon icon-link">http://lokeshdhakar.com/projects/lightbox2/</a></p>
+						<p><a href="https://github.com/lokesh/lightbox2" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/lokesh/lightbox2</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Colorbox</h3>
+						<p class="plugin__description">A customizable lightbox plugin for jQuery.</p>
+						<p><a href="http://www.jacklmoore.com/colorbox/" target="blank" class="plugin__link plugin__icon icon-link">http://www.jacklmoore.com/colorbox/</a></p>
+						<p><a href="https://github.com/jackmoore/colorbox" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/jackmoore/colorbox</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Custombox.js </h3>
+						<p class="plugin__description">Modal Window Effects with transitions CSS3. See the project page for documentation and a demonstration.</p>
+						<p><a href="http://dixso.github.io/custombox/" target="blank" class="plugin__link plugin__icon icon-link">http://dixso.github.io/custombox/</a></p>
+						<p><a href="https://github.com/dixso/custombox" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/dixso/custombox</a></p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="modal" class="plugins">
+				<h2 class="title plugins__title">Modal Windows</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Avgrund</h3>
+						<p class="plugin__description">Avgrund is a jQuery plugin for your modal boxes and popups. It uses new concept showing depth between popup and page.It works in all modern browsers and gracefully degrade in those that do not support CSS transitions and transformations.</p>
+						<p><a href="http://labs.voronianski.com/jquery.avgrund.js/" target="blank" class="plugin__link plugin__icon icon-link">http://labs.voronianski.com/jquery.avgrund.js/</a></p>
+						<p><a href="https://github.com/voronianski/jquery.avgrund.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/voronianski/jquery.avgrund.js</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">plainModal</h3>
+						<p class="plugin__description">The simple jQuery Plugin for fully customizable modal windows. plainModal has basic functions only, and it does not style. It has no image files and no CSS files. Just one small file.</p>
+						<p><a href="http://anseki.github.io/jquery-plainmodal/" target="blank" class="plugin__link plugin__icon icon-link">http://anseki.github.io/jquery-plainmodal/</a></p>
+						<p><a href="https://github.com/anseki/jquery-plainmodal" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/anseki/jquery-plainmodal</a></p>
+					</article>
+				</div>
+			</section>
+
+			<section id="preloaders" class="plugins">
+				<h2 class="title plugins__title">Preloaders</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Single Element CSS Spinners </h3>
+						<p class="plugin__description">This is a collection of loading spinners animated with CSS. Each spinner consists of a single article with a class of loader and content text of"Loading...". The text is for screen readers and can be used as a fallback state for older browsers.</p>
+						<p><a href="http://projects.lukehaas.me/css-loaders/" target="blank" class="plugin__link plugin__icon icon-link">http://projects.lukehaas.me/css-loaders/</a></p>
+						<p><a href="https://github.com/lukehaas/css-loaders" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/lukehaas/css-loaders</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Loaders</h3>
+						<p><a href="http://codepen.io/matthewpalmer/pen/nFmtg" target="blank" class="plugin__link plugin__icon icon-link">http://codepen.io/matthewpalmer/pen/nFmtg</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Loaders.css</h3>
+						<p class="plugin__description">Delightful and performance-focused pure css loading animations.</p>
+						<p><a href="http://connoratherton.com/loaders" target="blank" class="plugin__link plugin__icon icon-link">http://connoratherton.com/loaders</a></p>
+						<p><a href="https://github.com/ConnorAtherton/loaders.css" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/ConnorAtherton/loaders.css</a></p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="dragdrop" class="plugins">
+				<h2 class="title plugins__title">Drag&amp;Drop</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">JQUERY.PEP.JS</h3>
+						<p class="plugin__description">Pep, a lightweight plugin for kinetic drag on mobile/desktop.</p>
+						<p><a href="http://pep.briangonzalez.org/" target="blank" class="plugin__link plugin__icon icon-link">http://pep.briangonzalez.org/</a></p>
+						<p><a href="https://github.com/briangonzalez/jquery.pep.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/briangonzalez/jquery.pep.js</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Dragula</h3>
+						<p class="plugin__description">Drag and drop so simple it hurts</p>
+						<p><a href="http://bevacqua.github.io/dragula/" target="blank" class="plugin__link plugin__icon icon-link">http://bevacqua.github.io/dragula/</a></p>
+						<p><a href="https://github.com/bevacqua/dragula" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/bevacqua/dragula</a></p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="editors" class="plugins">
+				<h2 class="title plugins__title">Editors</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">SVGOMG</h3>
+						<p class="plugin__description">SVGOMG is SVGO's Missing GUI, aiming to expose the majority, if not all the configuration options of SVGO.</p>
+						<p><a href="https://github.com/jakearchibald/svgomg" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/jakearchibald/svgomg</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Squire</h3>
+						<p class="plugin__description">Squire is an HTML5 rich text editor, which provides powerful cross-browser normalisation, whilst being supremely lightweight and flexible. It is built for the present and the future, and as such does not support truly ancient browsers.</p>
+						<p><a href="http://neilj.github.io/Squire/" target="blank" class="plugin__link plugin__icon icon-link">http://neilj.github.io/Squire/</a></p>
+						<p><a href="https://github.com/neilj/Squire" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/neilj/Squire</a></p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="audio" class="plugins">
+				<h2 class="title plugins__title">Audio</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Howler.js</h3>
+						<p class="plugin__description">Javascript audio library for the modern web.</p>
+						<p><a href="http://howlerjs.com" target="blank" class="plugin__link plugin__icon icon-link">http://howlerjs.com</a></p>
+						<p><a href="https://github.com/goldfire/howler.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/goldfire/howler.js</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Toneden.js</h3>
+						<p class="plugin__description">A pure JS customizable audio player for SoundCloud.</p>
+						<p><a href="https://www.toneden.io/player/" target="blank" class="plugin__link plugin__icon icon-link">https://www.toneden.io/player</a></p>
+						<p><a href="https://github.com/ToneDen/toneden-sdk/" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/ToneDen/toneden-sdk/</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Beep.js</h3>
+						<p class="plugin__description">Beep is a JavaScript toolkit for building browser-based synthesizers.</p>
+						<p><a href="http://beepjs.com/" target="blank" class="plugin__link plugin__icon icon-link">http://beepjs.com/</a></p>
+						<p><a href="https://github.com/stewdio/beep.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/stewdio/beep.js</a></p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="video" class="plugins">
+				<h2 class="title plugins__title">Video</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">BigVideo.js</h3>
+						<p class="plugin__description">The jQuery Plugin for Big Background Video (and Images)</p>
+						<p><a href="http://dfcb.github.io/BigVideo.js/" target="blank" class="plugin__link plugin__icon icon-link">http://dfcb.github.io/BigVideo.js/</a></p>
+						<p><a href="https://github.com/dfcb/BigVideo.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/dfcb/BigVideo.js</a></p>
+					</article>
+				</div>
+			</section>
+
+			<section id="badges" class="plugins">
+				<h2 class="title plugins__title">Tab badges</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Piecon</h3>
+						<p class="plugin__description">A tiny javascript library for generating progress pie charts in your favicon.</p>
+						<p><a href="https://lipka.github.io/piecon/" target="blank" class="plugin__link plugin__icon icon-link">https://lipka.github.io/piecon/</a></p>
+						<p><a href="https://github.com/lipka/piecon" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/lipka/piecon</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Title Notifier js</h3>
+						<p class="plugin__description">Lightweight, dependency-free javascript library to dynamically show the number of unread notifications in your webpage title.</p>
+						<p><a href="http://roshiro.github.io/TitleNotifier.js/" target="blank" class="plugin__link plugin__icon icon-link">http://roshiro.github.io/TitleNotifier.js/</a></p>
+						<p><a href="https://github.com/roshiro/TitleNotifier.js" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/roshiro/TitleNotifier.js</a></p>
+					</article>
+				</div>
+			</section>
+
+			<section id="tooltips" class="plugins">
+				<h2 class="title plugins__title">Tooltips</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">jQuery PicTip</h3>
+						<p class="plugin__description">jQuery PicTip is a plugin that adds handy tooltips to your images, slideshows, sliders and more.</p>
+						<p><a href="http://dfernandeza.github.io/pictip/" target="blank" class="plugin__link plugin__icon icon-link">http://dfernandeza.github.io/pictip/</a></p>
+						<p><a href="https://github.com/dfernandeza/pictip" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/dfernandeza/pictip</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">ClockPicker</h3>
+						<p class="plugin__description">A clock-style timepicker for Bootstrap (or jQuery).</p>
+						<p><a href="http://weareoutman.github.io/clockpicker/" target="blank" class="plugin__link plugin__icon icon-link">http://weareoutman.github.io/clockpicker/</a></p>
+						<p><a href="https://github.com/weareoutman/clockpicker" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/weareoutman/clockpicker</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Timepicker for Twitter Bootstrap</h3>
+						<p class="plugin__description">A simple timepicker component for Twitter Bootstrap.</p>
+						<p><a href="http://jdewit.github.io/bootstrap-timepicker/" target="blank" class="plugin__link plugin__icon icon-link">http://jdewit.github.io/bootstrap-timepicker/</a></p>
+						<p><a href="https://github.com/jdewit/bootstrap-timepicker" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/jdewit/bootstrap-timepicker</a></p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="others" class="plugins">
+				<h2 class="title plugins__title">Others</h2>
+				<div class="plugins__inner">
+					<article class="plugin">
+						<h3 class="title title_middle">Geocomplete</h3>
+						<p class="plugin__description">An advanced jQuery plugin that wraps the Google Maps API's Geocoding and Places Autocomplete services. You simply provide an input that lets you search for locations with a nice autocomplete dropdown. Optionally add a container to show an interactive map and a form that will be populated with the address details.</p>
+						<p><a href="http://ubilabs.github.io/geocomplete/" target="blank" class="plugin__link plugin__icon icon-link">http://ubilabs.github.io/geocomplete/</a></p>
+						<p><a href="https://github.com/ubilabs/geocomplete" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/ubilabs/geocomplete</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Tag-it</h3>
+						<p class="plugin__description">A jQuery UI plugin to handle multi-tag fields as well as tag suggestions/autocomplete.</p>
+						<p><a href="http://aehlke.github.io/tag-it/examples.html" target="blank" class="plugin__link plugin__icon icon-link">http://aehlke.github.io/tag-it/examples.html</a></p>
+						<p><a href="https://github.com/aehlke/tag-it" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/aehlke/tag-it</a></p>
+					</article>
+					
+					<article class="plugin">
+						<h3 class="title title_middle">jQuery ListNav Plugin</h3>
+						<p class="plugin__description">Create a world of alphabetical navigation filters one list at a time!</p>
+						<p><a href="http://ericsteinborn.com/jquery-listnav/" target="blank" class="plugin__link plugin__icon icon-link">http://ericsteinborn.com/jquery-listnav/</a></p>
+						<p><a href="https://github.com/esteinborn/jquery-listnav" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/esteinborn/jquery-listnav</a></p>
+					</article>
+					
+					<article class="plugin">
+						<h3 class="title title_middle">UpUp - Kickstarting the Offline First Revolution</h3>
+						<p class="plugin__description">Kickstarting the Offline-First Revolution</p>
+						<p><a href="https://www.talater.com/upup/" target="blank" class="plugin__link plugin__icon icon-link">https://www.talater.com/upup/</a></p>
+						<p><a href="https://github.com/TalAter/UpUp" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/TalAter/UpUp</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">AlloyUI</h3>
+						<p class="plugin__description">AlloyUI is a framework built on top of YUI3 (JavaScript) that uses Bootstrap 3 (HTML/CSS) to provide a simple API for building high scalable applications. </p>
+						<p><a href="http://alloyui.com/" target="blank" class="plugin__link plugin__icon icon-link">http://alloyui.com/</a></p>
+						<p><a href="https://github.com/liferay/alloy-ui/" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/liferay/alloy-ui/</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Keyboard</h3>
+						<p class="plugin__description">Virtual Keyboard using jQuery UI</p>
+						<p><a href="http://mottie.github.io/Keyboard/" target="blank" class="plugin__link plugin__icon icon-link">http://mottie.github.io/Keyboard/</a></p>
+						<p><a href="https://github.com/Mottie/Keyboard" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/Mottie/Keyboard</a></p>
+					</article>
+					<article class="plugin">
+						<h3 class="title title_middle">Bootstrap Dual Listbox</h3>
+						<p class="plugin__description">Bootstrap Dual Listbox is a responsive dual listbox widget optimized for Twitter Bootstrap. It works on all modern browsers and on touch devices.</p>
+						<p><a href="http://www.virtuosoft.eu/code/bootstrap-duallistbox/" target="blank" class="plugin__link plugin__icon icon-link">http://www.virtuosoft.eu/code/bootstrap-duallistbox/</a></p>
+						<p><a href="https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox" target="blank" class="plugin__link plugin__icon icon-github">https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox</a></p>
+					</article>
+				</div>
+			</section>
 		</div>
+	</div>
 <script>
 (function(){
 
