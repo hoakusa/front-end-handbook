@@ -172,16 +172,10 @@ p{
 } 
  
 .content{
-	width: 75%;
+	width: 75vw;
 	padding: 5rem 2rem;
 	overflow-y: scroll;
 	box-sizing: content-box;
-}
-
-@media screen and (max-width: 480px){
-	.content{
-		width: 70%;
-	}	
 }
 
 /*
@@ -191,7 +185,7 @@ p{
 .navbar{
 	background-color: #eee;
 	box-sizing: border-box;
-	width: 25%;
+	width: 25vw;
 	overflow: hidden;
 	position: relative;
 }
@@ -219,13 +213,7 @@ p{
 		color: @theme_color2;
 	}
 }
-
-@media screen and (max-width: 480px){
-	.navbar{
-		width: 30%;
-	}	
-}
-
+  
 @media screen and (max-height: 480px){
 	.navbar__list{
 		height: 65%;
@@ -362,4 +350,10 @@ p{
 		.transform_rotate(45deg);
 		.transform_origin(100%, 100%);
 	}
+}
+
+@media screen and (max-width: 320px){
+	.social{
+		display: none;
+	} 	
 }
