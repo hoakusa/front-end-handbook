@@ -17,9 +17,10 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [CSSgram](http://una.im/CSSgram/)
         *   [Magic](http://minimamente.com/example/magic_animations/)
 *   JS
-    *   [Snabbt.js](http://daniel-lundin.github.io/snabbt.js)
-    *   [Walkway](https://connoratherton.com/walkway)
-    *   [Bricks.js](http://callmecavs.com/bricks.js/)
+	*   Others
+		*   [Snabbt.js](http://daniel-lundin.github.io/snabbt.js)
+		*   [Walkway](https://connoratherton.com/walkway)
+		*   [Bricks.js](http://callmecavs.com/bricks.js/)
 *   Jquery
     *   Animation
         *   [Animsition](http://git.blivesta.com/animsition/)
@@ -45,9 +46,9 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [PriorityNavigation.js](http://gijsroge.github.io/priority-nav.js/)
         *   [Jquery.rep.js](http://pep.briangonzalez.org/)
         *   [jQuery PicTip](http://dfernandeza.github.io/pictip/)
-        *   [](https://www.tinymce.com/)TinyMCE
-        *   [](https://github.com/toddmotto/echo)Echo.js
-        *   [](http://maxazan.github.io/jquery-treegrid/)TreeGrid
+        *   [TinyMCE](https://www.tinymce.com/)
+        *   [Echo.js](https://github.com/toddmotto/echo)
+        *   [TreeGrid](http://maxazan.github.io/jquery-treegrid/)
         *   [Previewer](https://github.com/fengyuanchen/previewer)
         *   [Timepicker for Twitter Bootstrap](http://jdewit.github.io/bootstrap-timepicker/)
         *   [jQuery ListNav Plugin](http://ericsteinborn.com/jquery-listnav/)
@@ -65,6 +66,9 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [Gulp watch](https://github.com/floatdrop/gulp-watch)
         *   [Gulp file include](https://github.com/coderhaoxin/gulp-file-include)
         *   [Gulp rimraf](https://github.com/robrich/gulp-rimraf)
+
+##Help the project
+If you liked this theme, please donate to me on [PayPal](https://www.paypal.me/melnik909) or contact me. Thanks!
 
 ## License
 MIT
