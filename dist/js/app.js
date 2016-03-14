@@ -1,0 +1,1 @@
+!function(){function n(){for(var n,e=0,t=c.length;t>e;e++)n=document.createElement("script"),n.src=c[e].src,n.async=c[e].async,document.body.appendChild(n)}var c=[{src:"../../metrika.js",async:!0}];window.addEventListener("load",n)}();
