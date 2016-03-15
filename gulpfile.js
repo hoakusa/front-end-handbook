@@ -9,15 +9,15 @@ svgMin = require("gulp-svgMin");
 
 
 
-gulp.task("html", function() {
+gulp.task("html", function(){
 
 	gulp.src("index.html").pipe(htmlMin({collapseWhitespace: true})).pipe(gulp.dest("dist"));
 
 });
 
-gulp.task("build-files", function() {
+gulp.task("build-files", function(){
     
-    gulp.src("html/pages/*.html").pipe(fileInclude({prefix: "@@",basepath: "@file"})).pipe(gulp.dest("dist"));
+    gulp.src("html/pages/*.html").pipe(fileInclude({prefix: "@@",basepath: "@file"})).pipe(htmlMin({collapseWhitespace: true})).pipe(gulp.dest("dist"));
 	
 });
 
