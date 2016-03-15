@@ -3,7 +3,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 
 ##Library
 
-*   CSS
+*   CSS plugins
     *   Preloaders
         *   [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
         *   [Loaders](http://codepen.io/matthewpalmer/pen/nFmtg)
@@ -16,12 +16,11 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [Hover.css](http://ianlunn.github.io/Hover/)
         *   [CSSgram](http://una.im/CSSgram/)
         *   [Magic](http://minimamente.com/example/magic_animations/)
-*   JS
-	*   Others
-		*   [Snabbt.js](http://daniel-lundin.github.io/snabbt.js)
-		*   [Walkway](https://connoratherton.com/walkway)
-		*   [Bricks.js](http://callmecavs.com/bricks.js/)
-*   Jquery
+*   JS plugins
+	*   [Snabbt.js](http://daniel-lundin.github.io/snabbt.js)
+	*   [Walkway](https://connoratherton.com/walkway)
+	*   [Bricks.js](http://callmecavs.com/bricks.js/)
+*   Jquery plugins
     *   Animation
         *   [Animsition](http://git.blivesta.com/animsition/)
         *   [jQuery Transit](http://ricostacruz.com/jquery.transit/)
@@ -55,17 +54,20 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [AlloyUI](http://alloyui.com/)
         *   [Keyboard](http://mottie.github.io/Keyboard/)
         *   [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/)
-*   Gulp
-    *   Utilities
-        *   [Gulp html minifier](https://github.com/origin1tech/gulp-html-minifier)
-        *   [Gulp svgmin](https://github.com/ben-eb/gulp-svgmin)
-        *   [Gulp concat](https://github.com/contra/gulp-concat)
-        *   [Gulp uglify](https://github.com/terinjokes/gulp-uglify)
-        *   [Gulp css base64](https://github.com/zckrs/gulp-css-base64)
-        *   [Gulp cssnano](https://github.com/ben-eb/gulp-cssnano)
-        *   [Gulp watch](https://github.com/floatdrop/gulp-watch)
-        *   [Gulp file include](https://github.com/coderhaoxin/gulp-file-include)
-        *   [Gulp rimraf](https://github.com/robrich/gulp-rimraf)
+*   Gulp plugins
+	*   [Gulp html minifier](https://github.com/origin1tech/gulp-html-minifier)
+	*   [Gulp svgmin](https://github.com/ben-eb/gulp-svgmin)
+	*   [Gulp concat](https://github.com/contra/gulp-concat)
+	*   [Gulp uglify](https://github.com/terinjokes/gulp-uglify)
+	*   [Gulp css base64](https://github.com/zckrs/gulp-css-base64)
+	*   [Gulp cssnano](https://github.com/ben-eb/gulp-cssnano)
+	*   [Gulp watch](https://github.com/floatdrop/gulp-watch)
+	*   [Gulp file include](https://github.com/coderhaoxin/gulp-file-include)
+	*   [Gulp rimraf](https://github.com/robrich/gulp-rimraf)
+*   Online tools
+	*   [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
+	*   [IN COLOR BALANCE](http://color.romanuke.com/)
+	*   [To-Markdown - An HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
 
 ##Help the project
 If you liked this theme, please donate to me on [PayPal](https://www.paypal.me/melnik909) or contact me. Thanks!
