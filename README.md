@@ -16,6 +16,8 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [Hover.css](http://ianlunn.github.io/Hover/)
         *   [CSSgram](http://una.im/CSSgram/)
         *   [Magic](http://minimamente.com/example/magic_animations/)
+	*   Others	
+		*   [Pure CSS icons](http://saeedalipoor.github.io/icono/)
 *   JS plugins
 	*   [Snabbt.js](http://daniel-lundin.github.io/snabbt.js)
 	*   [Walkway](https://connoratherton.com/walkway)
@@ -37,6 +39,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
     *   Modal
         *   [Avgrund](http://labs.voronianski.com/jquery.avgrund.js/)
         *   [plainModal](http://anseki.github.io/jquery-plainmodal/)
+        *   [Chocolat](http://chocolat.insipi.de)
     *   Sliders
         *   [Vegas – Backgrounds and Slideshows](http://vegas.jaysalvat.com/)
         *   [JQuery lightSlider](http://sachinchoolur.github.io/lightslider/)
@@ -54,6 +57,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [AlloyUI](http://alloyui.com/)
         *   [Keyboard](http://mottie.github.io/Keyboard/)
         *   [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/)
+        *   [jQuery Nice Select](http://hernansartorio.com/jquery-nice-select/)
 *   Gulp plugins
 	*   [Gulp html minifier](https://github.com/origin1tech/gulp-html-minifier)
 	*   [Gulp svgmin](https://github.com/ben-eb/gulp-svgmin)
@@ -68,6 +72,13 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 	*   [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
 	*   [IN COLOR BALANCE](http://color.romanuke.com/)
 	*   [To-Markdown - An HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
+	*   [Stock Up](http://www.sitebuilderreport.com/stock-up)
+	*   [Blend](http://colinkeany.com/blend/)
+	*   [Tinychart](http://tinychart.co)
+	*   [Frontify](https://frontify.com/styleguide)
+	*   [Filter Blend](http://ilyashubin.github.io/FilterBlend/)
+*   Resources
+	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 
 ##Help the project
 If you liked this theme, please donate to me on [PayPal](https://www.paypal.me/melnik909) or contact me. Thanks!
