@@ -22,6 +22,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 	*   [Snabbt.js](http://daniel-lundin.github.io/snabbt.js)
 	*   [Walkway](https://connoratherton.com/walkway)
 	*   [Bricks.js](http://callmecavs.com/bricks.js/)
+	*   [Substance](http://substance.io)
 *   Jquery plugins
     *   Animation
         *   [Animsition](http://git.blivesta.com/animsition/)
