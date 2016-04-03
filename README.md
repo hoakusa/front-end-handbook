@@ -81,6 +81,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 	*   [Pixabay](https://pixabay.com/en/)
 *   Resources
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
+	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 
 ##Help the project
 If you liked this theme, please donate to me on [PayPal](https://www.paypal.me/melnik909) or contact me. Thanks!
