@@ -78,6 +78,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 	*   [Tinychart](http://tinychart.co)
 	*   [Frontify](https://frontify.com/styleguide)
 	*   [Filter Blend](http://ilyashubin.github.io/FilterBlend/)
+	*   [Pixabay](https://pixabay.com/en/)
 *   Resources
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 
