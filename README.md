@@ -69,6 +69,7 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 	*   [Gulp watch](https://github.com/floatdrop/gulp-watch)
 	*   [Gulp file include](https://github.com/coderhaoxin/gulp-file-include)
 	*   [Gulp rimraf](https://github.com/robrich/gulp-rimraf)
+	*   [Gulp jscpd](https://github.com/yannickcr/gulp-jscpd)
 *   Design
  	*   Online tools
 		*   [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
@@ -83,7 +84,6 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 	*   [Tinychart](http://tinychart.co)
 	*   [Frontify](https://frontify.com/styleguide)
 	*   [Filter Blend](http://ilyashubin.github.io/FilterBlend/)
-
 *   Resources
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
