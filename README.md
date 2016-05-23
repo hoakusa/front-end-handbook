@@ -71,9 +71,13 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 	*   [Gulp rimraf](https://github.com/robrich/gulp-rimraf)
 	*   [Gulp jscpd](https://github.com/yannickcr/gulp-jscpd)
 *   Design
- 	*   Online tools
+ 	*   Palette generators
 		*   [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
 		*   [IN COLOR BALANCE](http://color.romanuke.com/)
+	*   Free stock photos
+		*   [Pexels](https://www.pexels.com)   
+		*   [https://stocksnap.io](StockSnap)
+		*   [http://startupstockphotos.com](Startup Stock Photos)
 		*   [Pixabay](https://pixabay.com/en/)
 		*   [Stock Up](http://www.sitebuilderreport.com/stock-up)
 	*   Icons
