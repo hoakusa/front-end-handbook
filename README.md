@@ -76,8 +76,8 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 		*   [IN COLOR BALANCE](http://color.romanuke.com/)
 	*   Free stock photos
 		*   [Pexels](https://www.pexels.com)   
-		*   [https://stocksnap.io](StockSnap)
-		*   [http://startupstockphotos.com](Startup Stock Photos)
+		*   [StockSnap](https://stocksnap.io)
+		*   [Startup Stock Photos](http://startupstockphotos.com)
 		*   [Pixabay](https://pixabay.com/en/)
 		*   [Stock Up](http://www.sitebuilderreport.com/stock-up)
 	*   Icons
