@@ -1,9 +1,9 @@
 # Library of plugins
-Library of plugins is a collection of ready-made decisions for front-end development. They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
+Library of plugins is a collection of ready-made solutions for front-end development. They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
 
 ##Library
 
-*   CSS plugins
+*   CSS
     *   Preloaders
         *   [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
         *   [Loaders](http://codepen.io/matthewpalmer/pen/nFmtg)
@@ -16,8 +16,15 @@ Library of plugins is a collection of ready-made decisions for front-end develop
         *   [Hover.css](http://ianlunn.github.io/Hover/)
         *   [CSSgram](http://una.im/CSSgram/)
         *   [Magic](http://minimamente.com/example/magic_animations/)
-	*   Others	
-		*   [Pure CSS icons](http://saeedalipoor.github.io/icono/)
+    *   Pure CSS icons	
+        *   [Pure CSS icons](http://saeedalipoor.github.io/icono/)
+        *   [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
+    *	Online tools
+        *   [CSS tooltip](http://csstooltip.com)
+        *   [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
+        *   [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
+        *   [Blend - Generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
+        *   [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)
 *   JS plugins
 	*   [Snabbt.js](http://daniel-lundin.github.io/snabbt.js)
 	*   [Walkway](https://connoratherton.com/walkway)
@@ -81,20 +88,21 @@ Library of plugins is a collection of ready-made decisions for front-end develop
 		*   [Pixabay](https://pixabay.com/en/)
 		*   [Stock Up](http://www.sitebuilderreport.com/stock-up)
 	*   Icons
-		* [Dripicons](https://github.com/amitjakhu/dripicons)   
+		* [Dripicons](https://github.com/amitjakhu/dripicons) 
+		* [Free Icon Font Generator](http://fontastic.me)
+		* [Fontello - icon fonts generator](http://fontello.com)
+		* [IcoMoon - Pixel Perfect Icon Solutions](https://icomoon.io)
 *   Online tools
 	*   [To-Markdown - An HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
-	*   [Blend](http://colinkeany.com/blend/)
-	*   [Tinychart](http://tinychart.co)
-	*   [Frontify](https://frontify.com/styleguide)
-	*   [Filter Blend](http://ilyashubin.github.io/FilterBlend/)
+	*   [Tinychart – simple, ready-to-go charts](http://tinychart.co)
+	*   [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
 *   Resources
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 	*   [JS Tips](http://www.jstips.co)
 
 ##Help the project
-If you liked this theme, please donate to me on [PayPal](https://www.paypal.me/melnik909) or contact me. Thanks!
+If you liked this project, [please donate to me on PayPal](https://www.paypal.me/melnik909). Thanks!
 
 ## License
 MIT
