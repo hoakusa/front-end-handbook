@@ -101,6 +101,9 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 	*   [JS Tips](http://www.jstips.co)
 
+##Thanks to the author
+Guys, don't forget to click an "star" if you like my project :)
+
 ##Help the project
 If you liked this project, [please donate to me on PayPal](https://www.paypal.me/melnik909). Thanks!
 
