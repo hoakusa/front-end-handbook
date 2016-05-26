@@ -23,7 +23,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
         *   [CSS tooltip](http://csstooltip.com)
         *   [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
         *   [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
-        *   [Blend - Generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
+        *   [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
         *   [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)
 *   JS
     *   Editors
@@ -89,18 +89,25 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 		*   [Pixabay](https://pixabay.com/en/)
 		*   [Stock Up](http://www.sitebuilderreport.com/stock-up)
 	*   Icons
-		* [Dripicons](https://github.com/amitjakhu/dripicons) 
-		* [Free Icon Font Generator](http://fontastic.me)
-		* [Fontello - icon fonts generator](http://fontello.com)
-		* [IcoMoon - Pixel Perfect Icon Solutions](https://icomoon.io)
+		*   [Dripicons](https://github.com/amitjakhu/dripicons) 
+		*   [Free icon font generator](http://fontastic.me)
+		*   [Fontello - icon fonts generator](http://fontello.com)
+		*   [IcoMoon - pixel perfect icon solutions](https://icomoon.io)
 *   Online tools
-	*   [To-Markdown - An HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
-	*   [Tinychart – simple, ready-to-go charts](http://tinychart.co)
-	*   [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
-	*   [Online CSS minifier](http://cssshrink.com)
-	*   [Online HTML minifier](http://www.willpeavy.com/minifier/)
-	*   [Compressor.io - optimize and compress your images and photos](https://compressor.io)
-	*   [JPEGmini reduces image size by up to 80% without compromising quality](http://www.jpegmini.com)
+	*   CSS
+		*   [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
+		*   [Online CSS minifier](http://cssshrink.com)
+	*   Images
+		*   [Compressor.io - optimize and compress your images and photos](https://compressor.io)
+		*   [JPEGmini reduces image size by up to 80% without compromising quality](http://www.jpegmini.com)
+		*   [TinyPNG – compress PNG images while preserving transparency](http://tinypng.com)
+		*   [Kraken.io - optimize your images with blazing speed using powerful API and online web interface](https://kraken.io)
+	*   HTML
+		*   [To-Markdown - an HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
+		*   [Online HTML minifier](http://www.willpeavy.com/minifier/)
+	*   Others
+		*   [Tinychart – simple, ready-to-go charts](http://tinychart.co)
+		*   [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
 *   Resources
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
