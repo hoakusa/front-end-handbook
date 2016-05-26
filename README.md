@@ -97,6 +97,10 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 	*   [To-Markdown - An HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
 	*   [Tinychart – simple, ready-to-go charts](http://tinychart.co)
 	*   [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
+	*   [Online CSS minifier](http://cssshrink.com)
+	*   [Online HTML minifier](http://www.willpeavy.com/minifier/)
+	*   [Compressor.io - optimize and compress your images and photos](https://compressor.io)
+	*   [JPEGmini reduces image size by up to 80% without compromising quality](http://www.jpegmini.com)
 *   Resources
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
