@@ -48,10 +48,10 @@ Library of plugins is a collection of ready-made solutions for front-end develop
         *   [Lightbox is small javascript library used to overlay images on top of the current page](http://lokeshdhakar.com/projects/lightbox2/)
         *   [Colorbox - a light-weight, customizable lightbox plugin for jQuery](http://www.jacklmoore.com/colorbox/)
         *   [Viewer - a simple jQuery image viewing plugin](http://fengyuanchen.github.io/viewer/)
+        *   [Chocolat - responsive jQuery Lightbox Plugin](http://chocolat.insipi.de)   
     *   Modal
         *   [Avgrund is a jQuery plugin for modal boxes and popups](http://labs.voronianski.com/jquery.avgrund.js/)
         *   [plainModal - the simple jQuery Plugin for fully customizable modal windows](http://anseki.github.io/jquery-plainmodal/)
-        *   [Chocolat - responsive jQuery Lightbox Plugin](http://chocolat.insipi.de)
     *   Sliders
         *   [Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements](http://vegas.jaysalvat.com/)
         *   [JQuery lightSlider is a lightweight responsive Content slider with carousel thumbnails navigation](http://sachinchoolur.github.io/lightslider/)
