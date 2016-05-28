@@ -93,6 +93,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 		*   [Free icon font generator](http://fontastic.me)
 		*   [Fontello - icon fonts generator](http://fontello.com)
 		*   [IcoMoon - pixel perfect icon solutions](https://icomoon.io)
+		*   [Search & download thousands of logos instantly](http://instantlogosearch.com)
 *   Online tools
 	*   CSS
 		*   [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
