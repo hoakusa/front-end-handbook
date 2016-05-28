@@ -12,7 +12,7 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
 *   CSS
     *   Preloaders
         *   [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
-        *   [Loaders](http://codepen.io/matthewpalmer/pen/nFmtg)
+        *   [Preloaders collection](http://codepen.io/collection/DVoQeA/)
         *   [Loaders.css](http://connoratherton.com/loaders)
     *   Form
         *   [Animated delete icon](http://codepen.io/yesilfasulye/pen/LmIlw)
