@@ -1,6 +1,12 @@
 # Library of plugins
 Library of plugins is a collection of ready-made solutions for front-end development. They will help you to faster your development, to add functionality and to decorate the interface. It is ok for beginners and professionals. I hope this collection will help you. If you have any questions you can connect with me to social networks.
 
+##Thanks to the author
+Guys, don't forget to click an "star" if you like my project :)
+
+##Help the project
+If you liked this project, [please donate to me on PayPal](https://www.paypal.me/melnik909). Thanks!
+
 ##Library
 
 *   CSS
@@ -113,12 +119,6 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 	*   [JS Tips](http://www.jstips.co)
-
-##Thanks to the author
-Guys, don't forget to click an "star" if you like my project :)
-
-##Help the project
-If you liked this project, [please donate to me on PayPal](https://www.paypal.me/melnik909). Thanks!
 
 ## License
 MIT
