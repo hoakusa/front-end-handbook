@@ -22,6 +22,7 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
         *   [Hover.css](http://ianlunn.github.io/Hover/)
         *   [CSSgram](http://una.im/CSSgram/)
         *   [Magic](http://minimamente.com/example/magic_animations/)
+        *   [Image hover effects](http://miketricking.github.io/dist/)
     *   Pure CSS icons	
         *   [Pure CSS icons](http://saeedalipoor.github.io/icono/)
         *   [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
