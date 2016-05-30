@@ -121,6 +121,7 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 	*   [JS Tips – A JS tip per day!](http://www.jstips.co)
 	*   [plainJS - The Vanilla JavaScript Repository](https://plainjs.com)
+	*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)
 
 ## License
 MIT
