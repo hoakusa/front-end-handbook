@@ -119,7 +119,8 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
 *   Resources
 	*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 	*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
-	*   [JS Tips](http://www.jstips.co)
+	*   [JS Tips – A JS tip per day!](http://www.jstips.co)
+	*   [plainJS - The Vanilla JavaScript Repository](https://plainjs.com)
 
 ## License
 MIT
