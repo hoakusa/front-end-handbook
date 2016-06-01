@@ -43,6 +43,9 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
         *   [PriorityNav is a lightweight accessible pure javascript plugin that will move your menu items if they don't fit its parent](http://gijsroge.github.io/priority-nav.js/)
         *   [WebGazer.js - democratizing Webcam Eye Tracking on the Browser](http://webgazer.cs.brown.edu)
         *   [Timesheet.js- javaScript library for HTML5 & CSS3 time sheets](https://github.com/sbstjn/timesheet.js)
+        *   [Impress.js -it's a presentation framework based on the power of CSS3 transforms and transitions](https://github.com/impress/impress.js)
+        *   [Tablesort - a small tablesorter in vanilla js](https://github.com/tristen/tablesort)
+        *   [Validate.js - is a lightweight JavaScript form validation library inspired by CodeIgniter.](https://github.com/rickharrison/validate.js)
 *   jQuery
     *   Animation
         *   [Animsition - a simple and easy jQuery plugin for CSS animated page transitions](http://git.blivesta.com/animsition/)
