@@ -90,6 +90,7 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
 	*   [Gulp file include - a gulp plugin for file include](https://github.com/coderhaoxin/gulp-file-include)
 	*   [Gulp rimraf - rimraf plugin for gulp](https://github.com/robrich/gulp-rimraf)
 	*   [Gulp jscpd - gulp plugin for the copy/paste detector jscpd](https://github.com/yannickcr/gulp-jscpd)
+	*   [JSHint plugin for gulp](https://github.com/spalger/gulp-jshint)
 *   Design
  	*   Palette generators
 		*   [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
