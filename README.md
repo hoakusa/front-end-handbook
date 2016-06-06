@@ -101,6 +101,11 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
 		*   [Startup Stock Photos](http://startupstockphotos.com)
 		*   [Pixabay](https://pixabay.com/en/)
 		*   [Stock Up](http://www.sitebuilderreport.com/stock-up)
+		*   [Free Nature Stock &middot](http://freenaturestock.com)
+		*   [Negative Space - Free stock photos](http://negativespace.co)
+		*   [Gratisography: Free high-resolution photos](http://gratisography.com)
+		*   [ISO Republic - Free and premium stock photos](http://isorepublic.com)
+		*   [Visual Hunt](https://visualhunt.com)   
 	*   Icons
 		*   [Dripicons](https://github.com/amitjakhu/dripicons) 
 		*   [Free icon font generator](http://fontastic.me)
