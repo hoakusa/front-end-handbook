@@ -112,6 +112,11 @@ If you liked this project, [please donate to me on PayPal](https://www.paypal.me
 		*   [Fontello - icon fonts generator](http://fontello.com)
 		*   [IcoMoon - pixel perfect icon solutions](https://icomoon.io)
 		*   [Search & download thousands of logos instantly](http://instantlogosearch.com)
+		*   [Free icons by first-class designers - IconStore](https://iconstore.co)
+		*   [Material icons](https://design.google.com/icons/)
+		*   [Iconmonstr - Free simple icons for your next project](http://iconmonstr.com)
+		*   [28,100 Free Icons - The Largest Icon Pack Ever | Icons8](https://icons8.com)
+		*   [Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons](http://www.flaticon.com)
 *   Online tools
 	*   CSS
 		*   [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
