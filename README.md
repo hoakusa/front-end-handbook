@@ -129,6 +129,8 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *  [Iconmonstr - Free simple icons for your next project](http://iconmonstr.com)
 *  [28,100 Free Icons - The Largest Icon Pack Ever | Icons8](https://icons8.com)
 *  [Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons](http://www.flaticon.com)
+*  [40 Tool Icons](https://dribbble.com/shots/2740824-40-Tool-Icons)
+*  [Food & Drinks Icon Set](http://graphicburger.com/food-drinks-icon-set/) 
 
 ## Online tools
 
