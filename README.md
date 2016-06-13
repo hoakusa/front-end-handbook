@@ -105,6 +105,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 ### Palette generators
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
 *  [IN COLOR BALANCE](http://color.romanuke.com/)
+*  [Coolors - The super fast color schemes generator!](https://coolors.co/browser)
 
 ### Free stock photos
 *  [Pexels](https://www.pexels.com)   
