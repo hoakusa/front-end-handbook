@@ -160,6 +160,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [plainJS - The Vanilla JavaScript Repository](https://plainjs.com)
 *   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)
 *   [Resource Cards - Selected free resources for designers](https://resourcecards.com)
+*   [Page Load Performance with DevTools](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/)
 
 ##Thanks to the author
 Guys, don't forget to click an "star" if you like my project :)
