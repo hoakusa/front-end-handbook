@@ -157,13 +157,13 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 *   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 *   [JS Tips – A JS tip per day!](http://www.jstips.co)
-*   [plainJS - The Vanilla JavaScript Repository](https://plainjs.com)
 *   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)
-*   [Resource Cards - Selected free resources for designers](https://resourcecards.com)
 *   [Page Load Performance with DevTools](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/)
 
 ## Storage
 *   [Wwwhere ](http://wwwhere.io)
+*   [plainJS - The Vanilla JavaScript Repository](https://plainjs.com)
+*   [Resource Cards - Selected free resources for designers](https://resourcecards.com)
 
 ##Thanks to the author
 Guys, don't forget to click an "star" if you like my project :)
