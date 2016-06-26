@@ -164,6 +164,8 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [Wwwhere ](http://wwwhere.io)
 *   [plainJS - The Vanilla JavaScript Repository](https://plainjs.com)
 *   [Resource Cards - Selected free resources for designers](https://resourcecards.com)
+*   [JSwiki](https://github.com/bebraw/jswiki/wiki)
+*   [Web Field Manual](http://webfieldmanual.com)
 
 ##Thanks to the author
 Guys, don't forget to click an "star" if you like my project :)
