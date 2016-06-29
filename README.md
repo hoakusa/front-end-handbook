@@ -48,12 +48,12 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 
 ### Animation
 *   [Animsition - a simple and easy jQuery plugin for CSS animated page transitions](http://git.blivesta.com/animsition/)
-*   [jQuery Transit - super-smooth CSS3 transformations and transitions for jQuery](http://ricostacruz.com/jquery.transit/)
 
 ### Images
 *   [Image Cropper - a simple jQuery image cropping plugin](http://fengyuanchen.github.io/cropper/)
 *   [Image Blur Plugin - ultra light cross browser image blurring plugin for jQuery](http://msurguy.github.io/background-blur/)
 *   [About Zoom - jQuery plugin for zooming images on mouseover](http://www.jacklmoore.com/zoom/)
+*   [Simple Image Slider](http://kavyasukumar.com/apps/imgSlider/)
 
 ### Lightboxs
 *   [lightGallery - a customizable, modular, responsive, lightbox gallery plugin](http://sachinchoolur.github.io/lightGallery/)
@@ -70,19 +70,15 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 ### Sliders
 *   [Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements](http://vegas.jaysalvat.com/)
 *   [JQuery lightSlider is a lightweight responsive Content slider with carousel thumbnails navigation](http://sachinchoolur.github.io/lightslider/)
-*   [Simple Image Slider](http://kavyasukumar.com/apps/imgSlider/)
 
 ### Others
 *   [Jquery.rep.js - a lightweight plugin for kinetic drag on mobile/desktop](http://pep.briangonzalez.org/)
-*   [jQuery PicTip - is a plugin that adds handy tooltips to your images, slideshows, sliders and more](http://dfernandeza.github.io/pictip/)
 *   [Echo.js - lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
-*   [TreeGrid](http://maxazan.github.io/jquery-treegrid/)
 *   [Previewer - a simple jQuery page preview plugin](https://github.com/fengyuanchen/previewer)
 *   [Timepicker for Twitter Bootstrap - a simple timepicker component for Twitter Bootstrap](http://jdewit.github.io/bootstrap-timepicker/)
 *   [jQuery ListNav Plugin - a jQuery plugin that creates an alphabetical navigation filter for your lists](http://ericsteinborn.com/jquery-listnav/)
 *   [Virtual Keyboard using jQuery](http://mottie.github.io/Keyboard/)
 *   [Bootstrap Dual Listbox is a responsive dual listbox widget optimized for Twitter Bootstrap](http://www.virtuosoft.eu/code/bootstrap-duallistbox/)
-*   [jQuery Nice Select - a lightweight jQuery plugin that replaces native select elements with customizable dropdowns](http://hernansartorio.com/jquery-nice-select/)
 
 ## Gulp
 *   [Gulp html minifier - minifies HTML using the html-minifier module](https://github.com/origin1tech/gulp-html-minifier)
