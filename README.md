@@ -43,6 +43,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [Impress.js -it's a presentation framework based on the power of CSS3 transforms and transitions](https://github.com/impress/impress.js)
 *   [Tablesort - a small tablesorter in vanilla js](https://github.com/tristen/tablesort)
 *   [Validate.js - is a lightweight JavaScript form validation library inspired by CodeIgniter.](https://github.com/rickharrison/validate.js)
+*   [Echo.js - lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
 
 ## jQuery
 
@@ -73,7 +74,6 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 
 ### Others
 *   [Jquery.rep.js - a lightweight plugin for kinetic drag on mobile/desktop](http://pep.briangonzalez.org/)
-*   [Echo.js - lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
 *   [Previewer - a simple jQuery page preview plugin](https://github.com/fengyuanchen/previewer)
 *   [jQuery ListNav Plugin - a jQuery plugin that creates an alphabetical navigation filter for your lists](http://ericsteinborn.com/jquery-listnav/)
 *   [Virtual Keyboard using jQuery](http://mottie.github.io/Keyboard/)
