@@ -75,10 +75,12 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [Jquery.rep.js - a lightweight plugin for kinetic drag on mobile/desktop](http://pep.briangonzalez.org/)
 *   [Echo.js - lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
 *   [Previewer - a simple jQuery page preview plugin](https://github.com/fengyuanchen/previewer)
-*   [Timepicker for Twitter Bootstrap - a simple timepicker component for Twitter Bootstrap](http://jdewit.github.io/bootstrap-timepicker/)
 *   [jQuery ListNav Plugin - a jQuery plugin that creates an alphabetical navigation filter for your lists](http://ericsteinborn.com/jquery-listnav/)
 *   [Virtual Keyboard using jQuery](http://mottie.github.io/Keyboard/)
+
+##Bootstrap
 *   [Bootstrap Dual Listbox is a responsive dual listbox widget optimized for Twitter Bootstrap](http://www.virtuosoft.eu/code/bootstrap-duallistbox/)
+*   [Timepicker for Twitter Bootstrap - a simple timepicker component for Twitter Bootstrap](http://jdewit.github.io/bootstrap-timepicker/)
 
 ## Gulp
 *   [Gulp html minifier - minifies HTML using the html-minifier module](https://github.com/origin1tech/gulp-html-minifier)
