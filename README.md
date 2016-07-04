@@ -23,6 +23,9 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
 *  [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
 
+### Tooltips
+*  [Tootik](https://github.com/eliorshalev/tootik)
+
 ### Online tools
 *  [CSS tooltip](http://csstooltip.com)
 *  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
