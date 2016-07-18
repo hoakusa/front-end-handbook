@@ -26,13 +26,6 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 ### Tooltips
 *  [Tootik](https://github.com/eliorshalev/tootik)
 
-### Online tools
-*  [CSS tooltip](http://csstooltip.com)
-*  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
-*  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
-*  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
-*  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)
-
 ## JS
 
 ### Editors
@@ -138,6 +131,11 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 ### CSS
 *  [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
 *  [Online CSS minifier](http://cssshrink.com)
+*  [CSS tooltip](http://csstooltip.com)
+*  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
+*  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
+*  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
+*  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
 
 ### Images
 *  [Compressor.io - optimize and compress your images and photos](https://compressor.io)
@@ -152,6 +150,9 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 ### Others
 *  [Tinychart – simple, ready-to-go charts](http://tinychart.co)
 *  [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
+
+## Browser plugins
+*   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
 
 ## Resources
 *   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
