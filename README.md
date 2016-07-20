@@ -126,6 +126,9 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *  [Food & Drinks Icon Set](http://graphicburger.com/food-drinks-icon-set/) 
 *  [Freebie: Line Icon Set for Designers](https://speckyboy.com/2016/06/28/free-line-icon-set-designers/)
 
+###Video
+*  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
+
 ## Online tools
 
 ### CSS
