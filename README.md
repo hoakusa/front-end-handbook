@@ -90,6 +90,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [Gulp rimraf - rimraf plugin for gulp](https://github.com/robrich/gulp-rimraf)
 *   [Gulp jscpd - gulp plugin for the copy/paste detector jscpd](https://github.com/yannickcr/gulp-jscpd)
 *   [JSHint plugin for gulp](https://github.com/spalger/gulp-jshint)
+*   [Gulp WebP - convert images to WebP](https://github.com/sindresorhus/gulp-webp)
 
 ## Design
 
