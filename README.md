@@ -84,7 +84,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [Gulp concat - streaming concat middleware for gulp](https://github.com/contra/gulp-concat)
 *   [Gulp uglify - minify JavaScript with UglifyJS](https://github.com/terinjokes/gulp-uglify)
 *   [Gulp css base64 - this gulp task converts all data found within a stylesheet (those within a url( ... ) declaration) into base64-encoded data URI strings. This includes images and fonts.](https://github.com/zckrs/gulp-css-base64)
-*   [Gulp cssnano - minify CSS with cssnano](https://github.com/ben-eb/gulp-cssnano)
+*   [Gulp clean css - minify CSS with clean-css](https://github.com/scniro/gulp-clean-css)
 *   [Gulp watch - file watcher that uses super-fast chokidar and emits vinyl objects](https://github.com/floatdrop/gulp-watch)
 *   [Gulp file include - a gulp plugin for file include](https://github.com/coderhaoxin/gulp-file-include)
 *   [Gulp rimraf - rimraf plugin for gulp](https://github.com/robrich/gulp-rimraf)
