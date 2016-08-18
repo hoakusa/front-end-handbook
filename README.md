@@ -110,6 +110,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *  [Gratisography: Free high-resolution photos](http://gratisography.com)
 *  [ISO Republic - Free and premium stock photos](http://isorepublic.com)
 *  [Visual Hunt](https://visualhunt.com)   
+*  [Pixambo - Free Stock Photos](http://pixambo.com)   
 
 ### Icons
 *  [Dripicons](https://github.com/amitjakhu/dripicons) 
