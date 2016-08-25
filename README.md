@@ -164,6 +164,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [JS Tips – A JS tip per day!](http://www.jstips.co)
 *   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)
 *   [Page Load Performance with DevTools](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/)
+*   [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
 
 ## Storage
 *   [Wwwhere ](http://wwwhere.io)
