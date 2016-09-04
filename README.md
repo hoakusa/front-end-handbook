@@ -166,6 +166,7 @@ Library of plugins is a collection of ready-made solutions for front-end develop
 *   [Page Load Performance with DevTools](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/)
 *   [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
 *   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
+*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 
 ## Storage
 *   [Wwwhere ](http://wwwhere.io)
