@@ -167,6 +167,7 @@ They will help you to faster your development. It is useful for beginners and pr
 *   [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
 *   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+*   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
 
 ## Storage
 *   [Wwwhere ](http://wwwhere.io)
