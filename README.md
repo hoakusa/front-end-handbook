@@ -1,5 +1,5 @@
 # Front-end handbook for UI developers and UI designers
-They will help you to faster your development. It is useful for beginners and professionals. I hope this handbook will help you. If you have any questions you can connect with me to social networks.
+They will help you to faster development your projects. It is useful for beginners and professionals. I hope this handbook will help you. If you have any questions you can connect with me to social networks.
 
 ## CSS
 
