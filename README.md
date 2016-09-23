@@ -159,15 +159,18 @@ They will help you to faster development your projects. It is useful for beginne
 ## Browser plugins
 *   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
 
-## Resources
+## Tutorials
 *   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
-*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
-*   [JS Tips – A JS tip per day!](http://www.jstips.co)
-*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)
-*   [Page Load Performance with DevTools](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/)
+*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
 *   [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
-*   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
+*   [TUTSET is a good starting point if you want to learn web development or web design](http://www.tutset.com)
+*   [Page Load Performance with DevTools](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/)
+*   [JS Tips – A JS tip per day!](http://www.jstips.co)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+
+## Resources
+*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
+*   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
 *   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
 
 ## Storage
