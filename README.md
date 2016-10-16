@@ -172,6 +172,7 @@ They will help you to faster development your projects. It is useful for beginne
 *   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 *   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
 *   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
+*   [jQuery Boilerplate](https://jqueryboilerplate.com)
 
 ## Storage
 *   [Wwwhere ](http://wwwhere.io)
