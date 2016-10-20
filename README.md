@@ -127,6 +127,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Food & Drinks Icon Set](http://graphicburger.com/food-drinks-icon-set/) 
 *  [Freebie: Line Icon Set for Designers](https://speckyboy.com/2016/06/28/free-line-icon-set-designers/)
 *  [Freebie: Flat Line UX And E-Commerce Icon Sets](https://www.smashingmagazine.com/2016/09/freebie-flat-line-ux-and-e-commerce-icon-sets-83-icon-sets-ai-eps-png-svg/)
+*  [Bytesize Icons - Tiny style-controlled SVG iconset](https://github.com/danklammer/bytesize-icons)
 
 ###Video
 *  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
