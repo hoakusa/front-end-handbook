@@ -142,6 +142,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
 *  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
 *  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
+*  [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)  
 
 ### Images
 *  [Compressor.io - optimize and compress your images and photos](https://compressor.io)
