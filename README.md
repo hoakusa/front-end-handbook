@@ -142,13 +142,14 @@ They will help you to faster development your projects. It is useful for beginne
 *  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
 *  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
 *  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
-*  [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)  
+  
 
 ### Images
 *  [Compressor.io - optimize and compress your images and photos](https://compressor.io)
 *  [JPEGmini reduces image size by up to 80% without compromising quality](http://www.jpegmini.com)
 *  [TinyPNG – compress PNG images while preserving transparency](http://tinypng.com)
 *  [Kraken.io - optimize your images with blazing speed using powerful API and online web interface](https://kraken.io)
+*  [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)
 
 ### HTML
 *  [To-Markdown - an HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
@@ -157,6 +158,7 @@ They will help you to faster development your projects. It is useful for beginne
 ### Others
 *  [Tinychart – simple, ready-to-go charts](http://tinychart.co)
 *  [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
+*  [FormLinter](https://formlinter.com)
 
 ## Browser plugins
 *   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
