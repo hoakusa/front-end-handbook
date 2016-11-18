@@ -152,6 +152,7 @@ They will help you to faster development your projects. It is useful for beginne
 
 ### HTML
 *  [To-Markdown - an HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
+*  [HTML Minifier ](http://kangax.github.io/html-minifier/)
 
 ### Others
 *  [Tinychart – simple, ready-to-go charts](http://tinychart.co)
