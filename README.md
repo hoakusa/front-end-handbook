@@ -146,6 +146,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [TinyPNG – compress PNG images while preserving transparency](http://tinypng.com)
 *  [Kraken.io - optimize your images with blazing speed using powerful API and online web interface](https://kraken.io)
 *  [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)
+*  [b64.io - image optimisation &amp; base64 encode](http://b64.io)
 
 ### HTML
 *  [To-Markdown - an HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
