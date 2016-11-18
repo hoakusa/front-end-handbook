@@ -136,7 +136,6 @@ They will help you to faster development your projects. It is useful for beginne
 
 ### CSS
 *  [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
-*  [Online CSS minifier](http://cssshrink.com)
 *  [CSS tooltip](http://csstooltip.com)
 *  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
 *  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
