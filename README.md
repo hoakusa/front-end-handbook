@@ -156,6 +156,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Tinychart – simple, ready-to-go charts](http://tinychart.co)
 *  [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
 *  [FormLinter](https://formlinter.com)
+*  [Online Font Converter](https://onlinefontconverter.com)
 
 ## Browser plugins
 *   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
