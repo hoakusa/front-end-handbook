@@ -51,7 +51,7 @@ They will help you to faster development your projects. It is useful for beginne
 *   [Image Cropper - a simple jQuery image cropping plugin](http://fengyuanchen.github.io/cropper/)
 *   [Image Blur Plugin - ultra light cross browser image blurring plugin for jQuery](http://msurguy.github.io/background-blur/)
 *   [About Zoom - jQuery plugin for zooming images on mouseover](http://www.jacklmoore.com/zoom/)
-*   [Simple Image Slider](http://kavyasukumar.com/apps/imgSlider/)
+*   [Simple Image Slider](https://github.com/kavyasukumar/imgSlider)
 
 ### Lightboxs and Modal
 *   [lightGallery - a customizable, modular, responsive, lightbox gallery plugin](http://sachinchoolur.github.io/lightGallery/)
