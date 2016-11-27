@@ -157,6 +157,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
 *  [FormLinter](https://formlinter.com)
 *  [Online Font Converter](https://onlinefontconverter.com)
+*  [HTML5Pattern](http://html5pattern.com)
 
 ## Browser plugins
 *   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
