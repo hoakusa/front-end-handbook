@@ -170,6 +170,7 @@ They will help you to faster development your projects. It is useful for beginne
 *   [Page Load Performance with DevTools](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/)
 *   [JS Tips – A JS tip per day!](http://www.jstips.co)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+*   [Coding Standards & Best Practices](http://lab.abhinayrathore.com/jquery-standards/)
 
 ## Resources
 *   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
