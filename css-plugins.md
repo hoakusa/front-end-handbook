@@ -1,5 +1,7 @@
+Section "CSS" contains: [Preloaders](cssplugins.md#preloaders), [Form](cssplugins.md#form), [Animation&Effects](cssplugins.md#animationeffects), [Pure CSS icons](cssplugins.md#purecssicons), [Tooltips](cssplugins.md#tooltips)		
+ 
 
-## CSS
+---
 
 ### Preloaders
 *  [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
