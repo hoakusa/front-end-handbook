@@ -1,4 +1,4 @@
-Section "CSS" contains: [Preloaders](cssplugins.md#preloaders), [Form](cssplugins.md#form), [Animation&Effects](cssplugins.md#animationeffects), [Pure CSS icons](cssplugins.md#purecssicons), [Tooltips](cssplugins.md#tooltips)		
+Section "CSS" contains: [Preloaders](css-plugins.md#preloaders), [Form](css-plugins.md#form), [Animation&Effects](cssplugins.md#animationeffects), [Pure CSS icons](css-plugins.md#pure-css-icons), [Tooltips](css-plugins.md#tooltips)		
  
 
 ---
