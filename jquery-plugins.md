@@ -6,7 +6,7 @@
 *   [About Zoom - jQuery plugin for zooming images on mouseover](http://www.jacklmoore.com/zoom/)
 *   [Simple Image Slider](https://github.com/kavyasukumar/imgSlider)
 
-### Lightboxs and Modal
+### Lightboxs
 *   [lightGallery - a customizable, modular, responsive, lightbox gallery plugin](http://sachinchoolur.github.io/lightGallery/)
 *   [Swipebox - a touchable jQuery lightbox](https://brutaldesign.github.io/swipebox/)
 *   [Lightbox is small javascript library used to overlay images on top of the current page](http://lokeshdhakar.com/projects/lightbox2/)
