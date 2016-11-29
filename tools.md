@@ -38,6 +38,7 @@
 *  [FormLinter](https://formlinter.com)
 *  [Online Font Converter](https://onlinefontconverter.com)
 *  [HTML5Pattern](http://html5pattern.com)
+*  [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
 
 ## Browser plugins
 *   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
