@@ -44,5 +44,5 @@ Section "Design" contains: [Palette generators](design.md#palette-generators), [
  
 ---
 
-Repository contains next sections: [CSS-plugins](css-plugins.md#css), [JS-plugins](pureJS-plugins.md#js), [jQuery-plugins](jquery-plugins.md#jquery),  [Tools](tools.md#tools), [Design](design.md#design)
+Repository contains next sections: [Home](README.md), [CSS-plugins](css-plugins.md#css), [JS-plugins](pureJS-plugins.md#js), [jQuery-plugins](jquery-plugins.md#jquery),  [Tools](tools.md#tools), [Design](design.md#design)
 
