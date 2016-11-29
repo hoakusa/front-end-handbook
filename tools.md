@@ -1,4 +1,7 @@
-## Gulp
+
+## Tools
+
+### Gulp
 *   [Gulp svgmin - minify SVG files with gulp](https://github.com/ben-eb/gulp-svgmin)
 *   [Gulp concat - streaming concat middleware for gulp](https://github.com/contra/gulp-concat)
 *   [Gulp uglify - minify JavaScript with UglifyJS](https://github.com/terinjokes/gulp-uglify)
@@ -9,9 +12,9 @@
 *   [JSHint plugin for gulp](https://github.com/spalger/gulp-jshint)
 *   [Gulp WebP - convert images to WebP](https://github.com/sindresorhus/gulp-webp)
 
-## Online tools
+### Online tools
 
-### CSS
+#### CSS
 *  [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
 *  [CSS tooltip](http://csstooltip.com)
 *  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
@@ -20,7 +23,7 @@
 *  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
 *  [CSSO – CSS optimizer](http://css.github.io/csso/csso.html)  
 
-### Images
+#### Images
 *  [Compressor.io - optimize and compress your images and photos](https://compressor.io)
 *  [JPEGmini reduces image size by up to 80% without compromising quality](http://www.jpegmini.com)
 *  [TinyPNG – compress PNG images while preserving transparency](http://tinypng.com)
@@ -28,11 +31,11 @@
 *  [SVGOMG - SVGO's Missing GUI](https://jakearchibald.github.io/svgomg/)
 *  [b64.io - image optimisation &amp; base64 encode](http://b64.io)
 
-### HTML
+#### HTML
 *  [To-Markdown - an HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
 *  [HTML Minifier ](http://kangax.github.io/html-minifier/)
 
-### Others
+#### Others
 *  [Tinychart – simple, ready-to-go charts](http://tinychart.co)
 *  [Create Free Brand & Design Style Guides with Frontify Style Guide](https://frontify.com/styleguide)
 *  [FormLinter](https://formlinter.com)
@@ -40,5 +43,5 @@
 *  [HTML5Pattern](http://html5pattern.com)
 *  [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
 
-## Browser plugins
+### Browser plugins
 *   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
