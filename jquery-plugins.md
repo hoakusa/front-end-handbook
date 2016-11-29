@@ -1,4 +1,7 @@
-## jQuery
+Section "jQuery-plugins" contains: [Images](jquery-plugins.md#images), [Lightboxs](jquery-plugins.md#lightboxs), [Modal](jquery-plugins.md#modal), [Sliders](jquery-plugins.md#sliders), [Others](jquery-plugins.md#others)	
+
+---
+
 
 ### Images
 *   [Image Cropper - a simple jQuery image cropping plugin](http://fengyuanchen.github.io/cropper/)
