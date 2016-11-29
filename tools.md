@@ -1,6 +1,8 @@
+Section "Tools" contains: [Gulp](tools.md#gulp), [Online tools](tools.md#online-tools), [Browser plugins](tools.md#browser-plugins)
+ 
 
-## Tools
-
+---
+ 
 ### Gulp
 *   [Gulp svgmin - minify SVG files with gulp](https://github.com/ben-eb/gulp-svgmin)
 *   [Gulp concat - streaming concat middleware for gulp](https://github.com/contra/gulp-concat)
