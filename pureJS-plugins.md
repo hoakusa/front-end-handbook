@@ -1,4 +1,7 @@
-## JS
+Section "JS-plugins" contains: 	[Editors](pureJS-plugins.md#editors), [Others](pureJS-plugins.md#others)	
+
+---
+
 
 ### Editors
 *   [Substance - a JavaScript library for web-based content editing](http://substance.io)
