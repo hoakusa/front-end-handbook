@@ -6,3 +6,4 @@
 *   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
 *   [jQuery Boilerplate](https://jqueryboilerplate.com)
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
+*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
