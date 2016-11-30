@@ -9,4 +9,4 @@
 *   [Tablesort — a small tablesorter in vanilla js](https://github.com/tristen/tablesort)
 *   [Validate.js — is a lightweight JavaScript form validation library inspired by CodeIgniter.](https://github.com/rickharrison/validate.js)
 *   [Echo.js — lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
-*   [Iconate.js — transform your icons with trendy animations.](https://github.com/bitshadow/iconate)
+
