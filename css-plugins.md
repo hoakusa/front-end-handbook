@@ -1,27 +1,21 @@
-Section "CSS-plugins" contains: [Preloaders](css-plugins.md#preloaders), [Form](css-plugins.md#form), [Animation&Effects](css-plugins.md#animationeffects), [Pure CSS icons](css-plugins.md#pure-css-icons), [Tooltips](css-plugins.md#tooltips)		
+Section "CSS-plugins" contains: [Animation](css-plugins.md#animation), [UI](css-plugins.md#ui)
  
 
 ---
 
-### Preloaders
-*  [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
-*  [Preloaders collection](http://codepen.io/collection/DVoQeA/)
-*  [Loaders.css](http://connoratherton.com/loaders)
-
-### Form
-*  [Animated delete icon](http://codepen.io/yesilfasulye/pen/LmIlw)
-*  [Collection CSS3 buttons](http://codepen.io/Angelfire/pen/opdDt)
-
-### Animation&Effects
+### Animation
 *  [Tasty CSS-animated Hamburgers](https://jonsuh.com/hamburgers/)
 *  [Hover.css](http://ianlunn.github.io/Hover/)
 *  [CSSgram](http://una.im/CSSgram/)
 *  [Magic](http://minimamente.com/example/magic_animations/)
 *  [Image hover effects](http://miketricking.github.io/dist/)
 
-### Pure CSS icons	
+### UI
+*  [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
+*  [Preloaders collection](http://codepen.io/collection/DVoQeA/)
+*  [Loaders.css](http://connoratherton.com/loaders)
+*  [Animated delete icon](http://codepen.io/yesilfasulye/pen/LmIlw)
+*  [Collection CSS3 buttons](http://codepen.io/Angelfire/pen/opdDt)
 *  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
 *  [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
-
-### Tooltips
-*  [Tootik](https://github.com/eliorshalev/tootik)
+*  [Tootik. A pure CSS/SCSS/LESS Tooltip library](https://github.com/eliorshalev/tootik)
