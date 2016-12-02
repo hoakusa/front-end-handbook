@@ -19,3 +19,8 @@ Section "CSS-plugins" contains: [Animation](css-plugins.md#animation), [UI](css-
 *  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
 *  [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
 *  [Tootik — a pure CSS/SCSS/LESS Tooltip library](https://github.com/eliorshalev/tootik)
+
+---
+
+Repository contains next sections: [Home](README.md), [CSS-plugins](css-plugins.md#css), [JS-plugins](pureJS-plugins.md#js), [jQuery-plugins](jquery-plugins.md#jquery),  [Tools](tools.md#tools), [Design](design.md#design), [It useful](it-useful.md#it-useful), [Tutorials](tutorials.md#tutorials)
+
