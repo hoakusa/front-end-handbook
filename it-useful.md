@@ -7,3 +7,8 @@
 *   [jQuery Boilerplate](https://jqueryboilerplate.com)
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+
+---
+
+Repository contains next sections: [Home](README.md), [CSS-plugins](css-plugins.md#css), [JS-plugins](pureJS-plugins.md#js), [jQuery-plugins](jquery-plugins.md#jquery),  [Tools](tools.md#tools), [Design](design.md#design), [It useful](it-useful.md#it-useful), [Tutorials](tutorials.md#tutorials)
+
