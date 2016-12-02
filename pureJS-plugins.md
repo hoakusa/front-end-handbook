@@ -10,3 +10,8 @@
 *   [Validate.js — is a lightweight JavaScript form validation library inspired by CodeIgniter.](https://github.com/rickharrison/validate.js)
 *   [Echo.js — lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
 
+---
+
+Repository contains next sections: [Home](README.md), [CSS-plugins](css-plugins.md#css), [JS-plugins](pureJS-plugins.md#js), [jQuery-plugins](jquery-plugins.md#jquery),  [Tools](tools.md#tools), [Design](design.md#design), [It useful](it-useful.md#it-useful), [Tutorials](tutorials.md#tutorials)
+
+
