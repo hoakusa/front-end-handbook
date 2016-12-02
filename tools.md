@@ -47,3 +47,8 @@ Section "Tools" contains: [Gulp](tools.md#gulp), [Online tools](tools.md#online-
 
 ### Browser plugins
 *   [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
+
+---
+
+Repository contains next sections: [Home](README.md), [CSS-plugins](css-plugins.md#css), [JS-plugins](pureJS-plugins.md#js), [jQuery-plugins](jquery-plugins.md#jquery),  [Tools](tools.md#tools), [Design](design.md#design), [It useful](it-useful.md#it-useful), [Tutorials](tutorials.md#tutorials)
+
