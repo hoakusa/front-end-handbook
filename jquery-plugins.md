@@ -26,3 +26,8 @@ Section "jQuery-plugins" contains: [Images](jquery-plugins.md#images), [Lightbox
 *   [Jquery.rep.js - a lightweight plugin for kinetic drag on mobile/desktop](http://pep.briangonzalez.org/)
 *   [Virtual Keyboard using jQuery](http://mottie.github.io/Keyboard/)
 *   [iziModal - Elegant, responsive, flexible and lightweight modal plugin with jQuery](https://github.com/dolce/iziModal)
+
+---
+
+Repository contains next sections: [Home](README.md), [CSS-plugins](css-plugins.md#css), [JS-plugins](pureJS-plugins.md#js), [jQuery-plugins](jquery-plugins.md#jquery),  [Tools](tools.md#tools), [Design](design.md#design), [It useful](it-useful.md#it-useful), [Tutorials](tutorials.md#tutorials)
+
