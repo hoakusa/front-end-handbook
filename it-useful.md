@@ -8,6 +8,7 @@
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 *   [CSS-Tricks](https://css-tricks.com)
+*   [Smashing Magazine – For Professional Web Designers and Developers](https://www.smashingmagazine.com)
 
 ---
 
