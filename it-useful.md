@@ -7,6 +7,7 @@
 *   [jQuery Boilerplate](https://jqueryboilerplate.com)
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+*   [CSS-Tricks](https://css-tricks.com)
 
 ---
 
