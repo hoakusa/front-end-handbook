@@ -9,6 +9,7 @@ Section "CSS-plugins" contains: [Animation](css-plugins.md#animation), [UI](css-
 *  [CSSgram — library for recreating Instagram filters with CSS filters and blend modes](http://una.im/CSSgram/)
 *  [Magic — CSS3 Animations with special effects](http://minimamente.com/example/magic_animations/)
 *  [Image hover effects that work with or without bootstrap](http://miketricking.github.io/dist/)
+*  [Tuesday — A quirky CSS Animation Library](https://github.com/ShakrMedia/tuesday)
 
 ### UI
 *  [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
