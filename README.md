@@ -122,7 +122,6 @@ They will help you to faster development your projects. It is useful for beginne
 *  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
 *  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
 *  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
-*  [CSSO – CSS optimizer](http://css.github.io/csso/csso.html)  
 
 ### Optimizers
 *  [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
@@ -134,6 +133,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [b64.io - image optimisation &amp; base64 encode](http://b64.io)
 *  [To-Markdown - an HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
 *  [HTML Minifier ](http://kangax.github.io/html-minifier/)
+*  [CSSO – CSS optimizer](http://css.github.io/csso/csso.html)  
 
 ### Others
 *  [Online Font Converter](https://onlinefontconverter.com)
