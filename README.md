@@ -55,7 +55,6 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Magic — CSS3 Animations with special effects](http://minimamente.com/example/magic_animations/)
 *  [Image hover effects that work with or without bootstrap](http://miketricking.github.io/dist/)
 *  [Tuesday — A quirky CSS Animation Library](https://github.com/ShakrMedia/tuesday)
-*  [Tootik — a pure CSS/SCSS/LESS Tooltip library](https://github.com/eliorshalev/tootik)
 
 #### CSS icons
 *  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
@@ -69,6 +68,7 @@ They will help you to faster development your projects. It is useful for beginne
 #### Snippets
 *  [Animated delete icon](http://codepen.io/yesilfasulye/pen/LmIlw)
 *  [Collection CSS3 buttons](http://codepen.io/Angelfire/pen/opdDt)
+*  [Tootik — a pure CSS/SCSS/LESS Tooltip library](https://github.com/eliorshalev/tootik)
 
 ### JS
 *   [Substance — a JavaScript library for web-based content editing](http://substance.io)
