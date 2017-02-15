@@ -38,6 +38,7 @@ They will help you to faster development your projects. It is useful for beginne
 
 ### Gradients
 * [Fresh Background Gradients | WebGradients.com](https://webgradients.com)
+* [uiGradients - Beautiful colored gradients](https://uigradients.com)
 
 ## Links
 *   [JS Tips – A JS tip per day!](http://www.jstips.co)
