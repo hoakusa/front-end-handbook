@@ -1,7 +1,7 @@
 # Front-end handbook for UI developers and UI designers
 They will help you to faster development your projects. It is useful for beginners and professionals. I hope this handbook will help you. 
 
-#### Animation libs
+### Animation libs
 *  [Tasty CSS-animated Hamburgers](https://jonsuh.com/hamburgers/)
 *  [Hover.css — a collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on](http://ianlunn.github.io/Hover/)
 *  [CSSgram — library for recreating Instagram filters with CSS filters and blend modes](http://una.im/CSSgram/)
@@ -18,17 +18,17 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
 *  [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
 
-### CSS Loaders
+### CSS loaders
 *  [Preloaders collection](http://codepen.io/collection/DVoQeA/)
 *  [Loaders.css — delightful and performance-focused pure css loading animations](http://connoratherton.com/loaders)
 *  [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
 
-### CSS Snippets
+### CSS snippets
 *  [Animated delete icon](http://codepen.io/yesilfasulye/pen/LmIlw)
 *  [Collection CSS3 buttons](http://codepen.io/Angelfire/pen/opdDt)
 *  [Tootik — a pure CSS/SCSS/LESS Tooltip library](https://github.com/eliorshalev/tootik)
 
-### Generators CSS-snippets
+### Generators CSS snippets
 *  [CSS tooltip](http://csstooltip.com)
 *  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
 *  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
@@ -56,7 +56,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Freebie: Flat Line UX And E-Commerce Icon Sets](https://www.smashingmagazine.com/2016/09/freebie-flat-line-ux-and-e-commerce-icon-sets-83-icon-sets-ai-eps-png-svg/)
 *  [Bytesize Icons - Tiny style-controlled SVG iconset](https://github.com/danklammer/bytesize-icons)
 
-### JS Plugins
+### JS plugins
 *   [Substance — a JavaScript library for web-based content editing](http://substance.io)
 *   [TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under LGPL](https://www.tinymce.com/)
 *   [Bricks.js — a blazing fast masonry layout generator for fixed width elements](http://callmecavs.com/bricks.js/)
@@ -67,7 +67,7 @@ They will help you to faster development your projects. It is useful for beginne
 *   [Validate.js — is a lightweight JavaScript form validation library inspired by CodeIgniter.](https://github.com/rickharrison/validate.js)
 *   [Echo.js — lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
 
-### jQuery Modals
+### jQuery modals
 *   [lightGallery - a customizable, modular, responsive, lightbox gallery plugin](http://sachinchoolur.github.io/lightGallery/)
 *   [Swipebox - a touchable jQuery lightbox](https://brutaldesign.github.io/swipebox/)
 *   [Lightbox is small javascript library used to overlay images on top of the current page](http://lokeshdhakar.com/projects/lightbox2/)
@@ -76,12 +76,12 @@ They will help you to faster development your projects. It is useful for beginne
 *   [Chocolat - responsive jQuery Lightbox Plugin](http://chocolat.insipi.de)   
 *   [iziModal - Elegant, responsive, flexible and lightweight modal plugin with jQuery](https://github.com/dolce/iziModal)
 
-### jQuery Sliders
+### jQuery sliders
 *   [Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements](http://vegas.jaysalvat.com/)
 *   [JQuery lightSlider is a lightweight responsive Content slider with carousel thumbnails navigation](http://sachinchoolur.github.io/lightslider/)
 *   [Simple Image Slider](https://github.com/kavyasukumar/imgSlider)
 
-### jQuery Others
+### jQuery others
 *   [Animsition - a simple and easy jQuery plugin for CSS animated page transitions](http://git.blivesta.com/animsition/)
 *   [Jquery.rep.js - a lightweight plugin for kinetic drag on mobile/desktop](http://pep.briangonzalez.org/)
 *   [Virtual Keyboard using jQuery](http://mottie.github.io/Keyboard/)
@@ -113,7 +113,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [HTML Minifier ](http://kangax.github.io/html-minifier/)
 *  [CSSO – CSS optimizer](http://css.github.io/csso/csso.html)  
 
-### Photos Stock
+### Photos stock
 *  [Pexels](https://www.pexels.com)   
 *  [StockSnap](https://stocksnap.io)
 *  [Startup Stock Photos](http://startupstockphotos.com)
