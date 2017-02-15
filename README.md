@@ -36,6 +36,9 @@ They will help you to faster development your projects. It is useful for beginne
 ### Video stock
 *  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
 
+### Gradients
+* [Fresh Background Gradients | WebGradients.com](https://webgradients.com)
+
 ## Links
 *   [JS Tips – A JS tip per day!](http://www.jstips.co)
 *   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
