@@ -1,20 +1,43 @@
 # Front-end handbook for UI developers and UI designers
 They will help you to faster development your projects. It is useful for beginners and professionals. I hope this handbook will help you. 
 
+#### Animation libs
+*  [Tasty CSS-animated Hamburgers](https://jonsuh.com/hamburgers/)
+*  [Hover.css — a collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on](http://ianlunn.github.io/Hover/)
+*  [CSSgram — library for recreating Instagram filters with CSS filters and blend modes](http://una.im/CSSgram/)
+*  [Magic — CSS3 Animations with special effects](http://minimamente.com/example/magic_animations/)
+*  [Image hover effects that work with or without bootstrap](http://miketricking.github.io/dist/)
+*  [Tuesday — A quirky CSS Animation Library](https://github.com/ShakrMedia/tuesday)
 
-## Design
-### Photos Stock
-*  [Pexels](https://www.pexels.com)   
-*  [StockSnap](https://stocksnap.io)
-*  [Startup Stock Photos](http://startupstockphotos.com)
-*  [Pixabay](https://pixabay.com/en/)
-*  [Stock Up](http://www.sitebuilderreport.com/stock-up)
-*  [Free Nature Stock &middot](http://freenaturestock.com)
-*  [Negative Space - Free stock photos](http://negativespace.co)
-*  [Gratisography: Free high-resolution photos](http://gratisography.com)
-*  [ISO Republic - Free and premium stock photos](http://isorepublic.com)
-*  [Visual Hunt](https://visualhunt.com)   
-*  [Pixambo - Free Stock Photos](http://pixambo.com)   
+### Color palette
+*  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
+*  [IN COLOR BALANCE](http://color.romanuke.com/)
+*  [Coolors - The super fast color schemes generator!](https://coolors.co/browser)
+
+### CSS icons
+*  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
+*  [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
+
+### CSS Loaders
+*  [Preloaders collection](http://codepen.io/collection/DVoQeA/)
+*  [Loaders.css — delightful and performance-focused pure css loading animations](http://connoratherton.com/loaders)
+*  [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
+
+### CSS Snippets
+*  [Animated delete icon](http://codepen.io/yesilfasulye/pen/LmIlw)
+*  [Collection CSS3 buttons](http://codepen.io/Angelfire/pen/opdDt)
+*  [Tootik — a pure CSS/SCSS/LESS Tooltip library](https://github.com/eliorshalev/tootik)
+
+### Generators CSS-snippets
+*  [CSS tooltip](http://csstooltip.com)
+*  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
+*  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
+*  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
+*  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
+
+### Gradients
+* [Fresh Background Gradients | WebGradients.com](https://webgradients.com)
+* [uiGradients - Beautiful colored gradients](https://uigradients.com)
 
 ### Icons
 *  [Dripicons](https://github.com/amitjakhu/dripicons) 
@@ -33,48 +56,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Freebie: Flat Line UX And E-Commerce Icon Sets](https://www.smashingmagazine.com/2016/09/freebie-flat-line-ux-and-e-commerce-icon-sets-83-icon-sets-ai-eps-png-svg/)
 *  [Bytesize Icons - Tiny style-controlled SVG iconset](https://github.com/danklammer/bytesize-icons)
 
-### Video stock
-*  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
-
-### Gradients
-* [Fresh Background Gradients | WebGradients.com](https://webgradients.com)
-* [uiGradients - Beautiful colored gradients](https://uigradients.com)
-
-## Links
-*   [JS Tips – A JS tip per day!](http://www.jstips.co)
-*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
-*   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
-*   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
-*   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
-*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
-*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
-*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
-
-## Plugns
-### CSS
-#### Animation libs
-*  [Tasty CSS-animated Hamburgers](https://jonsuh.com/hamburgers/)
-*  [Hover.css — a collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on](http://ianlunn.github.io/Hover/)
-*  [CSSgram — library for recreating Instagram filters with CSS filters and blend modes](http://una.im/CSSgram/)
-*  [Magic — CSS3 Animations with special effects](http://minimamente.com/example/magic_animations/)
-*  [Image hover effects that work with or without bootstrap](http://miketricking.github.io/dist/)
-*  [Tuesday — A quirky CSS Animation Library](https://github.com/ShakrMedia/tuesday)
-
-#### CSS icons
-*  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
-*  [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
-
-#### Loaders
-*  [Preloaders collection](http://codepen.io/collection/DVoQeA/)
-*  [Loaders.css — delightful and performance-focused pure css loading animations](http://connoratherton.com/loaders)
-*  [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)
-
-#### Snippets
-*  [Animated delete icon](http://codepen.io/yesilfasulye/pen/LmIlw)
-*  [Collection CSS3 buttons](http://codepen.io/Angelfire/pen/opdDt)
-*  [Tootik — a pure CSS/SCSS/LESS Tooltip library](https://github.com/eliorshalev/tootik)
-
-### JS
+### JS Plugins
 *   [Substance — a JavaScript library for web-based content editing](http://substance.io)
 *   [TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under LGPL](https://www.tinymce.com/)
 *   [Bricks.js — a blazing fast masonry layout generator for fixed width elements](http://callmecavs.com/bricks.js/)
@@ -85,9 +67,7 @@ They will help you to faster development your projects. It is useful for beginne
 *   [Validate.js — is a lightweight JavaScript form validation library inspired by CodeIgniter.](https://github.com/rickharrison/validate.js)
 *   [Echo.js — lazy-loading images with data-* attributes](https://github.com/toddmotto/echo)
 
-### jQuery
-
-#### Modals
+### jQuery Modals
 *   [lightGallery - a customizable, modular, responsive, lightbox gallery plugin](http://sachinchoolur.github.io/lightGallery/)
 *   [Swipebox - a touchable jQuery lightbox](https://brutaldesign.github.io/swipebox/)
 *   [Lightbox is small javascript library used to overlay images on top of the current page](http://lokeshdhakar.com/projects/lightbox2/)
@@ -96,36 +76,30 @@ They will help you to faster development your projects. It is useful for beginne
 *   [Chocolat - responsive jQuery Lightbox Plugin](http://chocolat.insipi.de)   
 *   [iziModal - Elegant, responsive, flexible and lightweight modal plugin with jQuery](https://github.com/dolce/iziModal)
 
-#### Sliders
+### jQuery Sliders
 *   [Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements](http://vegas.jaysalvat.com/)
 *   [JQuery lightSlider is a lightweight responsive Content slider with carousel thumbnails navigation](http://sachinchoolur.github.io/lightslider/)
 *   [Simple Image Slider](https://github.com/kavyasukumar/imgSlider)
 
-#### Others
+### jQuery Others
 *   [Animsition - a simple and easy jQuery plugin for CSS animated page transitions](http://git.blivesta.com/animsition/)
 *   [Jquery.rep.js - a lightweight plugin for kinetic drag on mobile/desktop](http://pep.briangonzalez.org/)
 *   [Virtual Keyboard using jQuery](http://mottie.github.io/Keyboard/)
 *   [Image Cropper - a simple jQuery image cropping plugin](http://fengyuanchen.github.io/cropper/)
 *   [About Zoom - jQuery plugin for zooming images on mouseover](http://www.jacklmoore.com/zoom/)
 
-
-## Tools
-
-### Accessibility
-*  [FormLinter](https://formlinter.com)
-*  [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
-
-### Color palette
-*  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
-*  [IN COLOR BALANCE](http://color.romanuke.com/)
-*  [Coolors - The super fast color schemes generator!](https://coolors.co/browser)
-
-### Generators CSS-snippets
-*  [CSS tooltip](http://csstooltip.com)
-*  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
-*  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
-*  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
-*  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
+### Links
+*   [JS Tips – A JS tip per day!](http://www.jstips.co)
+*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
+*   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
+*   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
+*   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
+*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
+*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
+*   [Online Font Converter](https://onlinefontconverter.com)
+*   [HTML5Pattern](http://html5pattern.com)
+*   [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
 
 ### Optimizers
 *  [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
@@ -139,12 +113,27 @@ They will help you to faster development your projects. It is useful for beginne
 *  [HTML Minifier ](http://kangax.github.io/html-minifier/)
 *  [CSSO – CSS optimizer](http://css.github.io/csso/csso.html)  
 
-### Others
-*  [Online Font Converter](https://onlinefontconverter.com)
-*  [HTML5Pattern](http://html5pattern.com)
-*  [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
+### Photos Stock
+*  [Pexels](https://www.pexels.com)   
+*  [StockSnap](https://stocksnap.io)
+*  [Startup Stock Photos](http://startupstockphotos.com)
+*  [Pixabay](https://pixabay.com/en/)
+*  [Stock Up](http://www.sitebuilderreport.com/stock-up)
+*  [Free Nature Stock &middot](http://freenaturestock.com)
+*  [Negative Space - Free stock photos](http://negativespace.co)
+*  [Gratisography: Free high-resolution photos](http://gratisography.com)
+*  [ISO Republic - Free and premium stock photos](http://isorepublic.com)
+*  [Visual Hunt](https://visualhunt.com)   
+*  [Pixambo - Free Stock Photos](http://pixambo.com)   
 
-##How to help the project
+### Tools for testing accessibility
+*  [FormLinter](https://formlinter.com)
+*  [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
+
+### Video stock
+*  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
+
+## How to help the project
 
 *  Share the link with friends and colleagues
 *  [Donate some money](https://www.paypal.me/melnik909) for developing project
