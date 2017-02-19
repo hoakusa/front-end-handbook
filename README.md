@@ -17,6 +17,7 @@ They will help you to faster development your projects. It is useful for beginne
 ### CSS icons
 *  [Pure CSS icons](http://saeedalipoor.github.io/icono/)
 *  [CSS 3 Icons Generator](http://www.uiplayground.in/css3-icons/)
+*  [CSS ICON -- project by Wenting Zhang](http://cssicon.space/#/)
 
 ### CSS loaders
 *  [Preloaders collection](http://codepen.io/collection/DVoQeA/)
