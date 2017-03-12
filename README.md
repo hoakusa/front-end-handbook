@@ -8,6 +8,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Magic — CSS3 Animations with special effects](http://minimamente.com/example/magic_animations/)
 *  [Image hover effects that work with or without bootstrap](http://miketricking.github.io/dist/)
 *  [Tuesday — A quirky CSS Animation Library](https://github.com/ShakrMedia/tuesday)
+*  [Animista is a place where you can play with a collection of ready to use CSS animations](http://animista.net)
 
 ### Color palette
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
