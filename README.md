@@ -43,7 +43,6 @@ They will help you to faster development your projects. It is useful for beginne
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 *   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 *   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
-*   [Online Font Converter](https://onlinefontconverter.com)
 *   [HTML5Pattern](http://html5pattern.com)
 *   [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
 
@@ -75,6 +74,9 @@ They will help you to faster development your projects. It is useful for beginne
 ### Tools for testing accessibility
 *  [FormLinter](https://formlinter.com)
 *  [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
+
+### Typography
+*   [Online Font Converter](https://onlinefontconverter.com)
 
 ### Video stock
 *  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
