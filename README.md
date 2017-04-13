@@ -1,6 +1,9 @@
 # Front-end handbook for UI developers and UI designers
 They will help you to faster development your projects. It is useful for beginners and professionals. I hope this handbook will help you. 
 
+### Accessibility 
+*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
+
 ### Color palette
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
 *  [IN COLOR BALANCE](http://color.romanuke.com/)
@@ -42,7 +45,6 @@ They will help you to faster development your projects. It is useful for beginne
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 *   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
-*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
 *   [HTML5Pattern](http://html5pattern.com)
 *   [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
 
