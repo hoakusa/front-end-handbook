@@ -2,8 +2,10 @@
 They will help you to faster development your projects. It is useful for beginners and professionals. I hope this handbook will help you. 
 
 ### Accessibility 
-*   [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
-*   [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
+*  [Introduction · eBay MIND Patterns](https://ebay.gitbooks.io/mindpatterns/content/)   
+*  [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
+*  [FormLinter](https://formlinter.com)
+*  [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
 
 ### Color palette
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
@@ -69,10 +71,6 @@ They will help you to faster development your projects. It is useful for beginne
 ### Regex pattern
 *   [HTML5Pattern](http://html5pattern.com)
 *   [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
-
-### Tools for testing accessibility
-*  [FormLinter](https://formlinter.com)
-*  [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
 
 ### Typography
 *   [Online Font Converter](https://onlinefontconverter.com)
