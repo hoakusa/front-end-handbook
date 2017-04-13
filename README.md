@@ -40,12 +40,6 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Freebie: Flat Line UX And E-Commerce Icon Sets](https://www.smashingmagazine.com/2016/09/freebie-flat-line-ux-and-e-commerce-icon-sets-83-icon-sets-ai-eps-png-svg/)
 *  [Bytesize Icons - Tiny style-controlled SVG iconset](https://github.com/danklammer/bytesize-icons)
 
-### Links
-*   [JS Tips – A JS tip per day!](http://www.jstips.co)
-*   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
-*   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
-*   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
-
 ### Optimizers
 *  [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
 *  [Compressor.io - optimize and compress your images and photos](https://compressor.io)
