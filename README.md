@@ -9,6 +9,9 @@ They will help you to faster development your projects. It is useful for beginne
 *  [IN COLOR BALANCE](http://color.romanuke.com/)
 *  [Coolors - The super fast color schemes generator!](https://coolors.co/browser)
 
+### Design Patterns
+*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+
 ### Generators CSS snippets
 *  [CSS tooltip](http://csstooltip.com)
 *  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
@@ -41,7 +44,6 @@ They will help you to faster development your projects. It is useful for beginne
 *   [JS Tips – A JS tip per day!](http://www.jstips.co)
 *   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
-*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 *   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 
 ### Optimizers
