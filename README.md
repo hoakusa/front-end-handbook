@@ -45,8 +45,6 @@ They will help you to faster development your projects. It is useful for beginne
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 *   [Front-End Developer Handbook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
-*   [HTML5Pattern](http://html5pattern.com)
-*   [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
 
 ### Optimizers
 *  [Spritebox - generate and create CSS from sprite images](http://www.spritebox.net)
@@ -72,6 +70,10 @@ They will help you to faster development your projects. It is useful for beginne
 *  [ISO Republic - Free and premium stock photos](http://isorepublic.com)
 *  [Visual Hunt](https://visualhunt.com)   
 *  [Pixambo - Free Stock Photos](http://pixambo.com)   
+
+### Regex pattern
+*   [HTML5Pattern](http://html5pattern.com)
+*   [Useful Regex Patterns](https://projects.lukehaas.me/regexhub/)
 
 ### Tools for testing accessibility
 *  [FormLinter](https://formlinter.com)
