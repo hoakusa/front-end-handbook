@@ -39,8 +39,6 @@ They will help you to faster development your projects. It is useful for beginne
 
 ### Links
 *   [JS Tips – A JS tip per day!](http://www.jstips.co)
-*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
-*   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
 *   [DevDocs is an API documentation browser that combines 100+ docs in a single UI](http://devdocs.io)
 *   [AnyAPI - Discover and Try Public APIs](https://any-api.com)
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
@@ -84,6 +82,10 @@ They will help you to faster development your projects. It is useful for beginne
 
 ### Video stock
 *  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
+
+### You Dont Need ....
+*   [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
+*   [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
 
 ## How to help the project
 
