@@ -75,6 +75,9 @@ They will help you to faster development your projects. It is useful for beginne
 ### Typography
 *   [Online Font Converter](https://onlinefontconverter.com)
 
+### Version control system 
+*   [Learn Git Branching](http://learngitbranching.js.org)
+
 ### Video stock
 *  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
 
