@@ -77,6 +77,7 @@ They will help you to faster development your projects. It is useful for beginne
 
 ### Version control system 
 *   [Learn Git Branching](http://learngitbranching.js.org)
+*   [The Pro Git book](https://git-scm.com/book/en/v2)
 
 ### Video stock
 *  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
