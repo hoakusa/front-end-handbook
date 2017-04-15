@@ -9,6 +9,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/)
 *  [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20160317/)
 *  [ARIA in HTML](https://www.w3.org/TR/html-aria/)
+*  [Using ARIA](https://w3c.github.io/aria-in-html/)
 
 ### Color palette
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
