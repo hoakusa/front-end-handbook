@@ -8,6 +8,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
 *  [Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/)
 *  [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20160317/)
+*  [ARIA in HTML](https://www.w3.org/TR/html-aria/)
 
 ### Color palette
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
