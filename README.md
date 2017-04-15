@@ -6,6 +6,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 *  [FormLinter](https://formlinter.com)
 *  [Chrome DevTools extension to develop for the visually impaired](http://chromelens.xyz)
+*  [Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/)
 
 ### Color palette
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
