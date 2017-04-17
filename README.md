@@ -11,6 +11,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [ARIA in HTML](https://www.w3.org/TR/html-aria/)
 *  [Using ARIA](https://w3c.github.io/aria-in-html/)
 *  [The A11Y Project](http://a11yproject.com)
+*  [Inclusive Components - a blog trying to be a pattern library. All about designing inclusive web interfaces, piece by piece.](https://inclusive-components.design)
 
 ### Color palette
 *  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
