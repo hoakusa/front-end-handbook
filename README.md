@@ -21,6 +21,9 @@ They will help you to faster development your projects. It is useful for beginne
 ### Design Patterns
 *   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 
+### CSS
+*   [Grid by Example](http://gridbyexample.com)
+
 ### Generators CSS snippets
 *  [CSS tooltip](http://csstooltip.com)
 *  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
