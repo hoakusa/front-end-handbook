@@ -18,11 +18,11 @@ They will help you to faster development your projects. It is useful for beginne
 *  [IN COLOR BALANCE](http://color.romanuke.com/)
 *  [Coolors - The super fast color schemes generator!](https://coolors.co/browser)
 
-### Design Patterns
-*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
-
 ### CSS
 *   [Grid by Example](http://gridbyexample.com)
+
+### Design Patterns
+*   [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
 
 ### Generators CSS snippets
 *  [CSS tooltip](http://csstooltip.com)
