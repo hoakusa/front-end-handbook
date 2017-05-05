@@ -35,6 +35,10 @@ They will help you to faster development your projects. It is useful for beginne
 * [Fresh Background Gradients | WebGradients.com](https://webgradients.com)
 * [uiGradients - Beautiful colored gradients](https://uigradients.com)
 
+### Guides
+* [HTML Reference - A free guide to all HTML elements and attributes](http://htmlreference.io)
+* [CSS Reference - A free visual guide to CSS](http://cssreference.io)
+
 ### Icons
 *  [Dripicons](https://github.com/amitjakhu/dripicons) 
 *  [Free icon font generator](http://fontastic.me)
