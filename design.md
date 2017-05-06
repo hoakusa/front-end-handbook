@@ -1,10 +1,5 @@
 # Design
 
-## Color palette
-*  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
-*  [IN COLOR BALANCE](http://color.romanuke.com/)
-*  [Coolors - The super fast color schemes generator!](https://coolors.co/browser)
-
 ## Icons
 *  [Dripicons](https://github.com/amitjakhu/dripicons) 
 *  [Free icon font generator](http://fontastic.me)
@@ -35,5 +30,26 @@
 *  [Visual Hunt](https://visualhunt.com)   
 *  [Pixambo - Free Stock Photos](http://pixambo.com)   
 
-### Video stock
+## Tools
+
+### Color palettes
+*  [Material Design Color Palette Generator - Material Palette](http://www.materialpalette.com/)
+*  [IN COLOR BALANCE](http://color.romanuke.com/)
+*  [Coolors - The super fast color schemes generator!](https://coolors.co/browser)
+
+### CSS snippets
+*  [CSS tooltip](http://csstooltip.com)
+*  [Ribbon builder](http://livetools.uiparade.com/ribbon-builder.html)
+*  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
+*  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
+*  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
+
+### Gradients
+* [Fresh Background Gradients | WebGradients.com](https://webgradients.com)
+* [uiGradients - Beautiful colored gradients](https://uigradients.com)
+
+### Typography
+*   [Online Font Converter](https://onlinefontconverter.com)
+
+## Video stock
 *  [Coverr - Beautiful, free videos for your homepage](http://coverr.co)
