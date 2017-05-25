@@ -67,6 +67,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
 *  [Blend - generate simple and beautiful CSS3 gradients](http://colinkeany.com/blend/)
 *  [Filter Blend - CSS blend modes and filters playground](http://ilyashubin.github.io/FilterBlend/)  
+*  [Clippy — CSS clip-path maker](http://bennettfeely.com/clippy/)  
 
 #### Gradients
 * [Fresh Background Gradients | WebGradients.com](https://webgradients.com)
@@ -105,7 +106,6 @@ They will help you to faster development your projects. It is useful for beginne
 *  [To-Markdown - an HTML To Markdown Converter](https://domchristie.github.io/to-markdown/)
 *  [HTML Minifier ](http://kangax.github.io/html-minifier/)
 *  [CSSO – CSS optimizer](http://css.github.io/csso/csso.html)  
-*  [Clippy — CSS clip-path maker](http://bennettfeely.com/clippy/)  
 
 ### Version control system 
 *  [Learn Git Branching](http://learngitbranching.js.org)
