@@ -86,6 +86,7 @@ They will help you to faster development your projects. It is useful for beginne
 *  [CSS Reference - A free visual guide to CSS](http://cssreference.io)
 *  [Grid by Example](http://gridbyexample.com)
 *  [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/)
+*  [Learn CSS Layout The Pedantic Way](http://book.mixu.net/css/)
 
 ### Regex pattern
 *  [HTML5Pattern](http://html5pattern.com)
