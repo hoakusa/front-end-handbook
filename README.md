@@ -1,6 +1,3 @@
-# Front-end handbook for UI developers and UI designers
-They will help you to faster development your projects. It is useful for beginners and professionals. I hope this handbook will help you. 
-
 ## Accessibility 
 
 ### Guides
@@ -115,10 +112,4 @@ They will help you to faster development your projects. It is useful for beginne
 ### You Dont Need ....
 *  [You Dont Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
 *  [You Don't Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-Javascript)
-
-## How to help the project
-
-*  Share the link with friends and colleagues
-*  [Donate some money](https://www.paypal.me/melnik909) for developing project
-
 
